@@ -2,55 +2,6 @@
 title: Va
 timezone: UTC
 collections:
-  blog:
-    title: Blog
-    output: true
-  events:
-    title: Events
-    output: true
-  gallery:
-    title: Gallery
-    output: true
   posts:
     title: Posts
     output: true
-  songs:
-    title: Songs
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-  videos:
-    title: Videos
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: blog
-  values:
-    layout: post
-    permalink: "/blog/:title"
-- scope:
-    path: ''
-    type: events
-  values:
-    layout: post
-    permalink: "/blog/:title"
-- scope:
-    path: ''
-    type: gallery
-  values:
-    layout: post
-    permalink: "/blog/:title"
-- scope:
-    path: ''
-    type: songs
-  values:
-    layout: post
-    permalink: "/blog/:title"
-- scope:
-    path: ''
-    type: videos
-  values:
-    layout: post
-    permalink: "/blog/:title"
