@@ -8,3 +8,20 @@ collections:
   uploads:
     title: Uploads
     output: true
+  videos:
+    title: Videos
+    output: true
+  songs:
+    title: Songs
+    output: true
+  gallery:
+    title: Gallery
+    output: true
+  events:
+    title: Events
+    output: true
+  blog:
+    title: Blog
+    output: true
+    
+  
