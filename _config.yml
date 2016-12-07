@@ -29,28 +29,28 @@ defaults:
     type: blog
   values:
     layout: post
-    permalink: /blog/:title
+    permalink: "/blog/:title"
 - scope:
     path: ''
     type: events
   values:
     layout: post
-    permalink: /blog/:title
+    permalink: "/blog/:title"
 - scope:
     path: ''
     type: gallery
   values:
     layout: post
-    permalink: /blog/:title
+    permalink: "/blog/:title"
 - scope:
     path: ''
     type: songs
   values:
     layout: post
-    permalink: /blog/:title
+    permalink: "/blog/:title"
 - scope:
     path: ''
     type: videos
   values:
     layout: post
-    permalink: /blog/:title
+    permalink: "/blog/:title"
