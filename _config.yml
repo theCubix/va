@@ -11,9 +11,6 @@ collections:
   gallery:
     title: Gallery
     output: true
-  posts:
-    title: Posts
-    output: true
   songs:
     title: Songs
     output: true
