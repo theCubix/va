@@ -2,8 +2,20 @@
 title: Va
 timezone: UTC
 collections:
+  blog:
+    title: Blog
+    output: true
+  events:
+    title: Events
+    output: true
+  gallery:
+    title: Gallery
+    output: true
   posts:
     title: Posts
+    output: true
+  songs:
+    title: Songs
     output: true
   uploads:
     title: Uploads
@@ -11,17 +23,3 @@ collections:
   videos:
     title: Videos
     output: true
-  songs:
-    title: Songs
-    output: true
-  gallery:
-    title: Gallery
-    output: true
-  events:
-    title: Events
-    output: true
-  blog:
-    title: Blog
-    output: true
-    
-  
