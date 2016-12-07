@@ -24,8 +24,8 @@ collections:
     title: Videos
     output: true
 defaults:
-  -
-    scope:
-      type: "blog"
-    values:
-      layout: "post"
+- scope:
+    path: ''
+    type: blog
+  values:
+    layout: post
