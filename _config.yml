@@ -23,3 +23,9 @@ collections:
   videos:
     title: Videos
     output: true
+defaults:
+  -
+    scope:
+      type: "blog"
+    values:
+      layout: "post"
