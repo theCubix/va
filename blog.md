@@ -1,6 +1,7 @@
 ---
-layout: default
-permalink: /blog/index.html
 title: blog
+permalink: "/blog/index.html"
+layout: default
 ---
+
 blog

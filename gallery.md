@@ -1,6 +1,7 @@
 ---
-layout: default
-permalink: /gallery/index.html
 title: gallery
+permalink: "/gallery/index.html"
+layout: default
 ---
+
 gallery
