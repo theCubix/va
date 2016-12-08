@@ -2,4 +2,15 @@
 layout: master
 ---
 
-{{ content }}
+<div class="fullscreen-image" style="background-image:url({{ page.background_image }})">
+    <div id="backgroundOverlay">
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="material-section col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+        </div>
+    </div>
+</div>
