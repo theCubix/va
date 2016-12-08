@@ -10,3 +10,13 @@ collections:
     output: true
   gallery:
     title: Galerie
+defaults:
+  -
+    scope:
+      path: ""
+      type: "gallery"
+    values:
+      thumbnail_path: ""
+      image_path: ""
+      caption: ""
+      description: ""
