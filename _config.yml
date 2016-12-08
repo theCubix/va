@@ -22,4 +22,3 @@ defaults:
       thumbnail_path: ""
       image_path: ""
       caption: ""
-      description: ""
