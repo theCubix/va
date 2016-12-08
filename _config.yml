@@ -20,8 +20,3 @@ defaults:
     image_path: ''
     caption: ''
     description: ''
-- scope:
-    path: ''
-  values:
-    date: ''
-    author: ''
