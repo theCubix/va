@@ -1,5 +1,6 @@
 ---
 layout: default
-permalink: pretty
+permalink: /blog/index.html
+title: blog
 ---
 blog

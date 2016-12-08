@@ -12,17 +12,8 @@ collections:
     title: Uploads
     output: true
 defaults:
-<<<<<<< HEAD
-  -
-    scope:
-      path: ""
-      type: "gallery"
-    values:
-      thumbnail_path: ""
-      image_path: ""
-      caption: ""
-=======
-- scope:
+- 
+  scope:
     path: ''
     type: gallery
   values:
@@ -30,4 +21,11 @@ defaults:
     image_path: ''
     caption: ''
     description: ''
->>>>>>> origin/master
+-
+  scope:
+    path: ''
+    type: 'pages'
+  values:
+    background_image: ''
+    date: ''
+    author: ''
