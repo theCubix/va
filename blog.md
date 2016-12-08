@@ -2,6 +2,7 @@
 title: blog
 permalink: "/blog/index.html"
 layout: default
+background_image: ''
 ---
 
 blog
