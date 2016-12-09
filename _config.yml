@@ -24,5 +24,7 @@ defaults:
     path: ''
     type: posts
   values:
-    layout: ''
+    layout: 'post'
     author: ''
+    video: ''
+    song: ''
