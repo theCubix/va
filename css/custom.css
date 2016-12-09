@@ -26,3 +26,6 @@ p, div {
     font-family: 'Crimson Text';
     font-weight: 400;
 }
+nav li a {
+    font-family: 'Montserrat';
+}
