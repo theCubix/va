@@ -20,3 +20,11 @@ defaults:
     image_path: ''
     caption: ''
     description: ''
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    author: ''
+    video: ''
+    song: ''
