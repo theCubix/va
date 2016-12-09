@@ -20,10 +20,9 @@ defaults:
     image_path: ''
     caption: ''
     description: ''
--
-  scope:
-    path: ""
-    type: "posts"
+- scope:
+    path: ''
+    type: posts
   values:
-    layout: ""
-    author: ""
+    layout: ''
+    author: ''
