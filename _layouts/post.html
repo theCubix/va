@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2>{{ page.date }}</h2>
-<h2>{{ page.author }}</h2>
+<p class="post-date">{{ page.date | date: "%d. %B %Y" | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</p>
+<p class="post-author">{{ page.author }}</p>
 
 {{ content }}
