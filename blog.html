@@ -6,3 +6,10 @@ background_image: ''
 background_image_caption: ''
 ---
 
+<div class="row">
+    {% for post in site.posts %}
+    <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+        <img class="img-responsive" src="{{ post.background_image }}">
+    </div>
+    {% endfor %}
+</div>

@@ -1,6 +1,8 @@
 ---
 title: First Post
 date: 2016-12-09 11:44:00 Z
+description: We start writing posts! This means that our videos, songs and images
+  are no longer just individual elements. Everything gets connected and this is awesome!
 author: Timon
 background_image: https://www.placehold.it/1000x600/123456/FFFFFF
 ---
