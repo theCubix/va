@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Gallery</title>
+        <title>Galerie – Voltage Arc Website</title>
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet">
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link href="/css/custom.css" rel="stylesheet">
@@ -16,24 +16,25 @@
     <body>
         
         <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="/">Voltage Arc</a>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="/">Voltage Arc</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li ><a href="/">Start</a></li>
+                <li ><a href="/events/">Veranstaltungen</a></li>
+                <li class="active"><a href="/gallery/">Galerie</a></li>
+                <li ><a href="/blog/">Blog</a></li>
+                <li ><a href="/engage/">Buchen</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li ><a href="/">Start</a></li>
-        <li class="active"><a href="/gallery/">Galerie</a></li>
-        <li ><a href="/blog/">Blog</a></li>
-        <li ><a href="/engage/">Buchen</a></li>
-      </ul>
-    </div>
-  </div>
 </nav>
 
         
@@ -44,8 +45,22 @@
         <div class="container">
             <div class="row">
                 <div class="material-section col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
-                    <h1>Gallery</h1>
+                    <h1>Galerie</h1>
                     
+<a class="swipebox col-lg-4 col-md-4 col-sm-6 col-xs-12" href="/uploads/bandroom.jpg" title="Unser neuer Bandroom und Toni">
+    <div class="child" style="background-image: url(/uploads/bandroom.jpg)" title="Unser neuer Bandroom und Toni">
+    </div>
+</a>
+
+
+<a class="swipebox col-lg-4 col-md-4 col-sm-6 col-xs-12" href="https://www.placehold.it/1000x500/ff4f4f/ffffff" title="My Caption">
+    <div class="child" style="background-image: url(https://www.placehold.it/250x150/ff4f4f/ffffff)" title="image">
+    </div>
+</a>
+<a class="swipebox col-lg-4 col-md-4 col-sm-6 col-xs-12" href="https://www.placehold.it/1000x500/6b9aac/ffffff" title="My Caption">
+    <div class="child" style="background-image: url(https://www.placehold.it/250x150/6b9aac/ffffff)" title="image">
+    </div>
+</a>
                 </div>
             </div>
         </div>
@@ -53,5 +68,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/custom.js"></script>
+        <script type="text/javascript">
+        ;( function( $ ) {
+            
+            $( '.swipebox' ).swipebox();
+            
+        } )( jQuery );
+        </script>
     </body>
 </html>

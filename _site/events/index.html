@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Buchen – Voltage Arc Website</title>
+        <title>Veranstaltungen – Voltage Arc Website</title>
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet">
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link href="/css/custom.css" rel="stylesheet">
@@ -28,10 +28,10 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li ><a href="/">Start</a></li>
-                <li ><a href="/events/">Veranstaltungen</a></li>
+                <li class="active"><a href="/events/">Veranstaltungen</a></li>
                 <li ><a href="/gallery/">Galerie</a></li>
                 <li ><a href="/blog/">Blog</a></li>
-                <li class="active"><a href="/engage/">Buchen</a></li>
+                <li ><a href="/engage/">Buchen</a></li>
             </ul>
         </div>
     </div>
@@ -45,8 +45,20 @@
         <div class="container">
             <div class="row">
                 <div class="material-section col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
-                    <h1>Buchen</h1>
-                    
+                    <h1>Veranstaltungen</h1>
+                    <ul class="nav nav-tabs col-lg-12 col-md-12 col-sm-12 col-xs-12" role="tablist">
+    <li class="tab col-lg-6 col-md-6 col-sm-6 col-xs-6 active" role="presentation"><a href="#upcoming" role="tab" data-toggle="tab">Bevorstehend</a></li>
+    <li class="tab col-lg-6 col-md-6 col-sm-6 col-xs-6" role="presentation"><a href="#former" role="tab" data-toggle="tab">Vergangen</a></li>
+</ul>
+
+<div class="tab-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div role="tabpanel" class="tab-pane active" id="upcoming">
+        upcoming
+    </div>
+    <div role="tabpanel" class="tab-pane" id="former">
+        former
+    </div>
+</div>
                 </div>
             </div>
         </div>
