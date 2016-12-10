@@ -1,6 +1,6 @@
 /* --- General Styling --- */
 body {
-    background-color: #fafafa;
+    background-color: #F5F5F5;
     font-size: 1.5em;
 }
 
@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6 {
 
 p, div {
     font-family: 'Lato';
+}
+
+.margin-top-plus {
+    margin-top: 40px;
 }
 
 /* --- Custom Navbar --- */
@@ -79,4 +83,15 @@ video#bgvid {
 .post-author {
     color: #616161;
     font-size: 0.85em;
+}
+
+/* --- Member Card ---*/
+.about-card {
+    height: 480px;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
