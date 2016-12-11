@@ -11,6 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  events:
+    title: Veranstaltungen
+    output: true
 defaults:
 - scope:
     path: ''
@@ -28,3 +31,12 @@ defaults:
     author: ''
     video: ''
     song: ''
+- scope:
+    path: ''
+    type: events
+  values:
+    state: ''
+    link: ''
+    date: ''
+    location: ''
+    
