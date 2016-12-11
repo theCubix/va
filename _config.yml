@@ -32,10 +32,10 @@ defaults:
     video: ''
     song: ''
 - scope:
-    path: 'events'
+    path: ''
     type: events
   values:
-    state: ''
+    layout: event
     link: ''
     date: ''
-    location: ''
+    location: ''  
