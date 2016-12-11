@@ -32,7 +32,7 @@ defaults:
     video: ''
     song: ''
 - scope:
-    path: ''
+    path: 'events'
     type: events
   values:
     state: ''
