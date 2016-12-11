@@ -36,4 +36,3 @@ defaults:
     type: events
   values:
     location: ''
-    date: ''
