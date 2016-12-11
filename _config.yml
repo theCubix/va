@@ -31,11 +31,3 @@ defaults:
     author: ''
     video: ''
     song: ''
-- scope:
-    path: ''
-    type: events
-  values:
-    layout: event
-    date: ''
-    location: ''
-    link: ''
