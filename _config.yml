@@ -14,7 +14,6 @@ collections:
   events:
     title: Veranstaltungen
     output: true
-    layout: event
 defaults:
 - scope:
     path: ''
