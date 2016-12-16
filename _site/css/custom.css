@@ -109,15 +109,33 @@ video#bgvid {
 }
 
 /* --- Tabs --- */
+.nav-tabs {
+    border: none;
+    background-color: #424242;
+}
+
 .nav-tabs > li > a {
     border-radius: 0;
+    border: none;
+    color: #fff;
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    border: transparent;
-    border-bottom: 3px solid #ff0000;
+    border: none;
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #fff;
+    color: #424242;
+}
+
+.nav-tabs > li > a:hover {
+    border: none;
+}
+
+.border-wrapper {
+    border: 4px solid #424242;
+}
 
 /* --- Material Blog Card --- */
 
