@@ -18,7 +18,25 @@ p, div {
     margin-top: 40px;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
 /* --- Material Components --- */
+.material-shadow-hover {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: #fff;
+    transition: 250ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.material-shadow-hover:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: scale(1.007);
+}
+
 .material-shadow-1 { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 
 .material-shadow-2 { box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
@@ -29,16 +47,22 @@ p, div {
 
 .material-shadow-5 { box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); }
 
+.material-corner { 
+    border-radius: 3px;
+
+}
+
 /* --- Custom Navbar --- */
 nav li a {
     font-family: 'Montserrat';
     font-weight: 400;
 }
+
 /*  --- Default Layout Styling --- */
 .fullscreen-image {
     width: 100%;
     height: 500px;
-    height: 70vh;
+    height: 85vh;
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -99,13 +123,18 @@ video#bgvid {
 
 /* --- Member Card ---*/
 .about-card {
-    height: 480px;
+    height: 520px;
     margin: 10px 0;
     padding: 20px;
     background-color: #fff;
     border-radius: 2px;
     overflow: hidden;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.align-bottom {
+    position: absolute;
+    bottom: 30px;
 }
 
 /* --- Tabs --- */
@@ -137,7 +166,131 @@ video#bgvid {
     border: 4px solid #424242;
 }
 
-/* --- Material Blog Card --- */
+/* --- Material Blog Component --- */
+.post-overview-wrapper {
+    margin-bottom: 20px;
+}
+
+.post-overview {
+    height: 100%;
+}
+
+.post-overview > a {
+    color: #212121;
+}
+
+.post-overview > span {
+    color: #D32F2F;
+    font-size: 0.8em;
+}
+
+.post-overview > p {
+    padding-top: 10px;
+    color: #424242;
+}
+
+.post-overview > a > h2 {
+    margin-bottom: 2px;
+}
+
+.post-overview-wrapper > .post-overview > .btn {
+    position: relative;
+}
+
+.post-overview-image {
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: #009688;
+}
+
+/* xs iPhone */ 
+@media only screen and (min-width : 320px) {
+    .post-overview-image {
+        display: inline-block;
+        position: relative;
+        padding: 0;
+    }
+    .post-overview-image:after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+}
+
+/* xs */ 
+@media only screen and (min-width : 480px) {
+    .post-overview-image {
+        display: inline-block;
+        position: relative;
+        padding: 0;
+    }
+    .post-overview-image:after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+    
+    .post-overview-wrapper > .post-overview > .btn {
+        position: relative;
+    }
+    
+    .post-overview-wrapper {
+        height: auto;
+    }
+}
+
+/* sm */
+@media only screen and (min-width : 768px) {
+    .post-overview-wrapper {
+        height: 190px;
+    }
+    
+    .post-overview-image {
+        height: 100%;
+    }
+    
+    .post-overview-wrapper > .post-overview > .btn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+/* md */
+@media only screen and (min-width : 992px) {
+    .post-overview-wrapper {
+        height: 240px;
+    }
+    
+    .post-overview-image {
+        height: 100%;
+    }
+    
+    .post-overview-wrapper > .post-overview > .btn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    
+}
+
+/* lg */
+@media only screen and (min-width : 1200px) {
+    .post-overview-wrapper {
+        height: 180px;
+    }
+    
+    .post-overview-image {
+        height: 100%;
+    }
+    
+    .post-overview-wrapper > .post-overview > .btn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
 
 
 /* --- Gallery ---*/
