@@ -173,6 +173,7 @@ video#bgvid {
 
 .post-overview {
     height: 100%;
+    margin-bottom: 20px;
 }
 
 .post-overview > a {
