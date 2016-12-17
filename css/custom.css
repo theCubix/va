@@ -18,11 +18,8 @@ p, div {
     margin-top: 40px;
 }
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
+.inline-video {
+    padding: 10px 0 0 0;
 }
 
 /* --- Material Components --- */
@@ -119,6 +116,10 @@ video#bgvid {
 .post-author {
     color: #616161;
     font-size: 0.85em;
+}
+
+.post-text {
+    padding: 15px 0 0 0;
 }
 
 /* --- Member Card ---*/
