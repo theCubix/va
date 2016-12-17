@@ -15,11 +15,7 @@ branches:
   - gh-pages     # test the gh-pages branch
   - /pages-(.*)/ # test every branch which starts with "pages-"
 
-env:
-  global:
-    - "FTP_USER=$ftp_user"
-    - "FTP_PASSWORD=$ftp_password"
 after_success:
-    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD login-176.hoststar.ch"
+    "curl --ftp-create-dirs -T uploadfilename -u $ftp_user:$ftp_password login-176.hoststar.ch"
 
 sudo: false
