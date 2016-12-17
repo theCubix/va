@@ -293,6 +293,11 @@ video#bgvid {
     }
 }
 
+/* --- Form Engage --- */
+.form-control {
+    border-radius: 0;
+    border: 4px solid #424242;
+}
 
 /* --- Gallery ---*/
 
@@ -341,12 +346,11 @@ video#bgvid {
 }
 
 
-
-
-
-
-
-/* --- Swipebox --- */
+/* 
+----------------
+--- Swipebox ---
+----------------
+*/
 
 /*! Swipebox v1.3.0 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
 html.swipebox-html.swipebox-touch {

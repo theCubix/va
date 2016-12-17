@@ -1,3 +1,23 @@
+
+<?php 
+if(isset($_POST['submit'])){
+    $to = "timon.forrer@gmail.com";
+    $from = $_POST['email'];
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $subject = "Neuer Buchungseingang für Voltage Arc";
+    $subject2 = "Kopie Ihrer Buchung von Voltage Arc";
+    $message = $first_name . " " . $last_name . " schrieb folgendes:" . "\n\n" . $_POST['message'];
+    $message2 = "Hier ist eine Kopie Ihrer Mail " . $first_name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail versendet. Danke Herr/Frau" . $last_name . ", wir werden Sie zeitnah kontaktieren.";
+    }
+?>
+
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -46,7 +66,27 @@
             <div class="row">
                 <div class="material-shadow-1 material-section col-lg-10 col-lg-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
                     <h1>Buchen</h1>
-                    
+                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <form action="" method="post">
+        <div class="form-group">
+            <label>Vorname</label>
+            <input type="text" class="form-control" name="first_name" placeholder="Vorname">
+        </div>
+        <div class="form-group">
+            <label>Nachname</label>
+            <input type="text" class="form-control" name="last_name" placeholder="Nachname">
+        </div>
+        <div class="form-group">
+            <label>E-Mail Adresse</label>
+            <input type="text" class="form-control" name="email" placeholder="E-Mail">
+        </div>
+        <div class="form-group">
+            <label>Hier haben Sie Platz, den Anlass zu beschreiben und die gewünschten Daten anzugeben.</label>
+            <textarea rows="5" class="form-control" name="message" cols="30" placeholder="Bemerkung"></textarea>
+        </div>
+        <input type="submit" name="submit" value="Absenden" class="btn btn-default pull-right">
+    </form>
+</div>
                 </div>
             </div>
         </div>
