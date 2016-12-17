@@ -15,6 +15,14 @@
         <![endif]-->
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.8";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
         
         <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
     <div class="container">
@@ -47,13 +55,28 @@
             <div class="row">
                 <div class="material-shadow-1 material-section col-lg-10 col-lg-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-xs-12">
                     <h1>First Post</h1>
-                    <p class="post-date">09. Dezember 2016</p>
+                    <div class="fb-like pull-right" data-href="http://va.siteleaf.net//2016/12/09/first-post.html" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+
+<p class="post-date">09. Dezember 2016</p>
+
 <p class="post-author">Timon</p>
 
-<p>This is the very first post of mine. It should show what is possible with <a href="https://jekyllrb.com">jekyll</a>, <a href="http://getbootstrap.com/">bootstrap </a>and <a href="https://www.siteleaf.com/">siteleaf</a>.
+
+<div class="inline-video col-lg-8 col-md-10 col-sm-12 col-xs-12">
+    <div class=" embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/UEpmpt4wYok" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+
+<div class="post-text col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <p>This is the very first post of mine. It should show what is possible with <a href="https://jekyllrb.com">jekyll</a>, <a href="http://getbootstrap.com/">bootstrap </a>and <a href="https://www.siteleaf.com/">siteleaf</a>.
 Texts can be formatted as <strong>bold</strong> or
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 
+</div>
+
+<div style="max-width:100%;" class="fb-comments" data-href="https://va.siteleaf.net/2016/12/09/first-post.html" data-numposts="5"></div>
 
                 </div>
             </div>

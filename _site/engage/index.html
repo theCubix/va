@@ -1,22 +1,24 @@
 
+
 <?php 
 if(isset($_POST['submit'])){
     $to = "timon.forrer@gmail.com";
     $from = $_POST['email'];
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
-    $subject = "Neuer Buchungseingang für Voltage Arc";
-    $subject2 = "Kopie Ihrer Buchung von Voltage Arc";
+    $subject = $first_name . " " . $last_name . " möchte Voltage Arc Buchen!";
+    $subject2 = "Kopie deiner Buchungsanfrage";
     $message = $first_name . " " . $last_name . " schrieb folgendes:" . "\n\n" . $_POST['message'];
-    $message2 = "Hier ist eine Kopie Ihrer Mail " . $first_name . "\n\n" . $_POST['message'];
+    $message2 = "Hallo " . $first_name . ". Hier ist eine Kopie deiner Anfrage bei Voltage Arc " . "\n\n" . $_POST['message'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail versendet. Danke Herr/Frau" . $last_name . ", wir werden Sie zeitnah kontaktieren.";
+    echo "Mail versendet. Danke " . $first_name . ", wir werden Sie zeitnah kontaktieren.";
     }
 ?>
+
 
 <!DOCTYPE HTML>
 <html>
@@ -34,6 +36,14 @@ if(isset($_POST['submit'])){
         <![endif]-->
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.8";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
         
         <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
     <div class="container">
