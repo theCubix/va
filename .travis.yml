@@ -7,6 +7,6 @@ install: gem install jekyll -v 2.4.0
 script: jekyll build
 
 after_success:
-    "curl --ftp-create-dirs -T /_site/* -u $ftp_user:$ftp_password login-176.hoststar.ch"
+    "curl --ftp-create-dirs -T /_site/ -u $ftp_user:$ftp_password login-176.hoststar.ch"
 
 sudo: false
