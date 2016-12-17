@@ -36,6 +36,11 @@ defaults:
     path: ''
     type: events
   values:
+    layout: post
+    state: ''
+    author: ''
+    background_image: ''
     location: ''
+    address: ''
     start_date: ''
     link: ''
