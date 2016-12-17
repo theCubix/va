@@ -9,6 +9,10 @@ before_script:
 # the `install` step will run `bundle install` by default.
 script: ./script/cibuild
 
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
 # branch whitelist, only for GitHub Pages
 branches:
   only:
