@@ -9,3 +9,4 @@ address: Bahnhofstrasse 50, 4663 Aarburg
 start_date: 2017-01-07 19:30:00 Z
 link: http://www.musigburg.ch/
 ---
+
