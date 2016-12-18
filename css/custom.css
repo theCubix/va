@@ -138,6 +138,43 @@ video#bgvid {
     bottom: 30px;
 }
 
+/* --- Events --- */
+.seperator {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 380px;
+    max-width: 85%;
+    height: 5px;
+    background-color: #424242;
+}
+
+.events-site-header {
+    font-size: 2.5em;
+    color: #E0E0E0;
+    margin-top: 40px;
+}
+
+.event-site-date {
+    margin-top: 5px;
+    font-size: 3.5em;
+    letter-spacing: -6px;
+    margin-bottom: -4px;
+}
+
+.event-site-date > a { color: black;}
+
+.event-site-location {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.event-site-time {
+    color: #9E9E9E;
+    font-size: 0.9em;
+    margin-bottom: 35px;
+}
+
+
 /* --- Tabs --- */
 .nav-tabs {
     border: none;
