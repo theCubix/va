@@ -142,7 +142,7 @@ video#bgvid {
 .seperator {
     margin-top: 20px;
     margin-bottom: 15px;
-    width: 380px;
+    width: 70px;
     max-width: 85%;
     height: 5px;
     background-color: #424242;
@@ -165,13 +165,13 @@ video#bgvid {
 
 .event-site-location {
     font-size: 1.2em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .event-site-time {
     color: #9E9E9E;
     font-size: 0.9em;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 
