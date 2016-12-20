@@ -36,10 +36,10 @@ defaults:
     path: ''
     type: events
   values:
-    layout: post
+    layout: event
     state: ''
     author: ''
-    background_image: ''
+    background_image: "/uploads/concert.jpg"
     location: ''
     address: ''
     start_date: ''
