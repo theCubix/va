@@ -39,7 +39,7 @@ defaults:
     layout: post
     state: ''
     author: ''
-    background_image: '/uploads/concert.jpg'
+    background_image: "/uploads/concert.jpg"
     location: ''
     address: ''
     start_date: ''
