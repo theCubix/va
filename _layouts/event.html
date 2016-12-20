@@ -19,7 +19,7 @@ layout: default
     <div itemprop="location" itemscope itemtype="http://schema.org/Place">
         <p>Lokal: <a itemprop="url" href="{{ page.link }}"><strong>{{ page.location }}</strong></a></p>
         <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <p itemprop="streetAddress">Adresse: <strong>{{ page.address }}</strong></p>
+            <p itemprop="streetAddress">Adresse: <a href="http://maps.google.com/?q={{ page.address | replace:" ","+" | replace:",","" }}" target="_blank"><strong>{{ page.address }}</strong></a></p>
         </div>
     </div>
 </div>
