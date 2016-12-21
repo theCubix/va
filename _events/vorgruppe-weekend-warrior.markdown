@@ -6,5 +6,6 @@ author: Voltage Arc
 location: Löwen
 address: Löwenstrasse 49, 5735 Pfeffikon
 start_date: 2014-11-29 19:00:00 Z
+link: ''
 ---
 
