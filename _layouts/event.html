@@ -18,7 +18,7 @@ layout: default
         <p>Türöffnung: <strong>{{ page.start_date | date: "%R" }}</strong></p>
     </div>
     <div itemprop="location" itemscope itemtype="http://schema.org/Place">
-        <p>Lokal: <a itemprop="url" href="{{ page.link }}"><strong>{{ page.location }}</strong></a></p>
+        <p>Lokal: {% if page.link == '' %}<strong>{{ page.location }}</strong>{% else %}<a itemprop="url" href="{{ page.link }}"><strong>{{ page.location }}</strong></a>{% endif %}</p>
         <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
             <p itemprop="streetAddress">Adresse: <a href="http://maps.google.com/?q={{ page.address | replace:" ","+" | replace:",","" }}" target="_blank"><strong>{{ page.address }}</strong></a></p>
         </div>
