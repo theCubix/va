@@ -44,3 +44,5 @@ defaults:
     address: ''
     start_date: ''
     link: ''
+gems:
+    - jekyll-minifier
