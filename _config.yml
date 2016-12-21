@@ -45,4 +45,4 @@ defaults:
     start_date: ''
     link: ''
 gems:
-    - jekyll-minifier
+- jekyll-minifier
