@@ -9,3 +9,8 @@ start_date: 2017-01-07 19:30:00 Z
 link: http://www.musigburg.ch/
 ---
 
+Wir nehmen an dem Rock Bandcontest in der Musigburg teil und treten dort gegen drei weitere Bands an. Die Gewinner-Band darf dann am 14. April 2017 als Vorband von Bonfire in der Musigburg auftreten. Mehr infos zu den beiden Anlässen findest du auf [musigburg.ch/events](http://www.musigburg.ch/events/).
+
+Eintritt: Fr. 5
+
+Wir freuen uns ab jeder Unterstützung.

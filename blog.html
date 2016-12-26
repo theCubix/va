@@ -6,7 +6,8 @@ background_image: "/uploads/turntable.jpg"
 background_image_caption: ''
 ---
 
-{% for post in site.posts %}
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
+{% for post in sorted_posts %}
 <div class="post-overview-wrapper">
     <a href="{{ post.url }}" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 post-overview-image" style="background-image:url({{ post.background_image }})">
     </a>

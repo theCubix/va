@@ -20,4 +20,12 @@ layout: default
     {{ content }}
 </div>
 
-<div style="max-width:100%;" class="fb-comments" data-href="https://va.siteleaf.net{{ page.url }}" data-numposts="5"></div>
+{% if page.song != '' %}
+<audio controls>
+  <source src="{{ page.song }}" type="audio/mpeg">
+</audio>
+{% endif %}
+
+<div class="facebook-embed">
+    <div style="max-width:100%;" class="fb-comments" data-href="https://va.siteleaf.net{{ page.url }}" data-numposts="5"></div>
+</div>
