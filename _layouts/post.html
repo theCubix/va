@@ -16,14 +16,16 @@ layout: default
 </div>
 {% endif %}
 
+<div class="post-text col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    {{ content }}
+</div>
+
 {% if page.song != '' %}
 <audio controls>
   <source src="{{ page.song }}" type="audio/mpeg">
 </audio>
 {% endif %}
 
-<div class="post-text col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    {{ content }}
+<div class="facebook-embed">
+    <div style="max-width:100%;" class="fb-comments" data-href="https://va.siteleaf.net{{ page.url }}" data-numposts="5"></div>
 </div>
-
-<div style="max-width:100%;" class="fb-comments" data-href="https://va.siteleaf.net{{ page.url }}" data-numposts="5"></div>

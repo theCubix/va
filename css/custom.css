@@ -128,6 +128,22 @@ video#bgvid {
     padding: 15px 0 0 0;
 }
 
+.facebook-embed {
+    widows: 100%;
+}
+
+.instagram-embed {
+    margin: 30px 0;
+}
+
+
+
+audio {
+    width: 550px;
+    max-width: 100%;
+    margin: 30px 0;
+}
+
 /* --- Member Card ---*/
 .about-card {
     height: 520px;
@@ -260,6 +276,9 @@ video#bgvid {
         display: block;
         content: '';
     }
+    .instagram-embed {
+        width: 100%;
+    }
 }
 
 /* xs */ 
@@ -282,6 +301,9 @@ video#bgvid {
     .post-overview-wrapper {
         height: auto;
     }
+    .instagram-embed {
+        width: 100%;
+    }
 }
 
 /* sm */
@@ -298,6 +320,9 @@ video#bgvid {
         position: absolute;
         right: 0;
         bottom: 0;
+    }
+    .instagram-embed {
+        width: 80%;
     }
 }
 
@@ -316,7 +341,9 @@ video#bgvid {
         right: 0;
         bottom: 0;
     }
-    
+    .instagram-embed {
+        width: 50%;
+    }
 }
 
 /* lg */
@@ -333,6 +360,9 @@ video#bgvid {
         position: absolute;
         right: 0;
         bottom: 0;
+    }
+    .instagram-embed {
+        width: 40%;
     }
 }
 
