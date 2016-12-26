@@ -4,9 +4,9 @@ date: 2016-12-26 11:00:00 Z
 description: Höre dir das Demo-Tape zu 'Put Up Your Head' an.
 author: Voltage Arc
 background_image: "/uploads/put-up-your-head-recording.jpg"
-image_caption: 'Aufnahmearbeiten von Put Up Your Head'
+image_caption: Aufnahmearbeiten von Put Up Your Head
 video: ''
-song: /uploads/Put_Up_Your_Head_(First_Demo).mp3
+song: "/uploads/Put_Up_Your_Head_(First_Demo).mp3"
 ---
 
 Diesen Sommer haben wir ein weiteres Demo-Tape aufgenommen und möchten diesen mit dir teilen. 
