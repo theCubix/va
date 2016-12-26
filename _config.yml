@@ -32,6 +32,7 @@ defaults:
     video: ''
     song: ''
     background_image: ''
+    image_caption: ''
 - scope:
     path: ''
     type: events
