@@ -16,6 +16,12 @@ layout: default
 </div>
 {% endif %}
 
+{% if page.song != '' %}
+<audio controls>
+  <source src="{{ page.song }}" type="audio/mpeg">
+</audio>
+{% endif %}
+
 <div class="post-text col-lg-12 col-md-12 col-sm-12 col-xs-12">
     {{ content }}
 </div>
