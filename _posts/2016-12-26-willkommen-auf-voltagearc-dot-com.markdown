@@ -1,8 +1,9 @@
 ---
 title: Willkommen auf Voltagearc.com
+date: 2016-12-26 00:00:00 Z
 description: Finde alle Neuigkeiten zu Voltage Arc auf der neuen Website.
 author: Voltage Arc
-background_image: /uploads/willkommen-auf-voltage-arc.jpg
+background_image: "/uploads/willkommen-auf-voltage-arc.jpg"
 video: ''
 song: ''
 ---
