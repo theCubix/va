@@ -66,8 +66,11 @@ nav li a {
     font-size: 1.5em
 }
 
-.dark-background > footer > .row > div > p {
-    color: rgba(255,255,255,0.7)
+.dark-background > footer > .row > div > p,
+.dark-background > footer > .row > div > p > a,
+{
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
 }
 
 /*  --- Default Layout Styling --- */
