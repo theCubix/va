@@ -14,12 +14,25 @@ p, div {
     font-family: 'Lato';
 }
 
-.margin-top-plus {
-    margin-top: 40px;
+.padding-top-plus {
+    padding-top: 40px;
 }
 
 .inline-video {
     padding: 10px 0 0 0;
+}
+
+@keyframes pulse {
+    0% {
+        color: rgba(0,0,0,0);
+    }
+    100% {
+        color: rgba(255,255,255,1);
+    }
+}
+
+.animated {
+    animation: pulse 2s ease alternate infinite;
 }
 
 /* --- Material Components --- */
@@ -66,11 +79,22 @@ nav li a {
     font-size: 1.5em
 }
 
+.dark-background > footer > .row > div > p > a {
+    border-bottom: 1px solid;
+    padding-bottom: 1px;
+}
+
 .dark-background > footer > .row > div > p,
 .dark-background > footer > .row > div > p > a
 {
     color: rgba(255,255,255,0.7);
     text-decoration: none;
+}
+
+.dark-background > footer > .row > div > p > a:hover,
+.dark-background > footer > .row > div > p > a:focus {
+    color: #337ab7;
+    border-bottom: 1px dotted;
 }
 
 /*  --- Default Layout Styling --- */
@@ -95,12 +119,34 @@ nav li a {
 /* --- Fullscreen Video --- */
 .landing-page {
     position: relative;
-    color: #fff;
     min-height: 500px;
     height: 600px;
     height: 100vh;
     overflow: hidden;
     text-align: center;
+}
+
+.landing-page > h1 {
+    color: #fff;
+}
+
+.btn-outline {
+    margin: 250px 0 25px 0;
+    margin: 40vh 0 25px 0;
+}
+
+.landing-page > .btn-outline > a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.landing-page > .btn-outline > a:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
 }
 
 video#bgvid {
@@ -166,7 +212,6 @@ audio {
 
 /* --- Member Card ---*/
 .about-card {
-    height: 520px;
     margin: 10px 0;
     padding: 20px;
     background-color: #fff;
@@ -286,16 +331,22 @@ audio {
 
 /* xs iPhone */ 
 @media only screen and (min-width : 320px) {
+    .about-card {
+        height: 480px;
+    }
+    
     .post-overview-image {
         display: inline-block;
         position: relative;
         padding: 0;
     }
+    
     .post-overview-image:after {
         padding-top: 56.25%;
         display: block;
         content: '';
     }
+    
     .instagram-embed {
         width: 100%;
     }
@@ -303,11 +354,15 @@ audio {
 
 /* xs */ 
 @media only screen and (min-width : 480px) {
+    .about-card {
+        height: 480px;
+    }
     .post-overview-image {
         display: inline-block;
         position: relative;
         padding: 0;
     }
+    
     .post-overview-image:after {
         padding-top: 56.25%;
         display: block;
@@ -328,6 +383,10 @@ audio {
 
 /* sm */
 @media only screen and (min-width : 768px) {
+    .about-card {
+        height: 500px;
+    }
+    
     .post-overview-wrapper {
         height: 190px;
     }
@@ -341,6 +400,7 @@ audio {
         right: 0;
         bottom: 0;
     }
+    
     .instagram-embed {
         width: 80%;
     }
@@ -348,6 +408,10 @@ audio {
 
 /* md */
 @media only screen and (min-width : 992px) {
+    .about-card {
+        height: 520px;
+    }
+    
     .post-overview-wrapper {
         height: 240px;
     }
@@ -368,6 +432,10 @@ audio {
 
 /* lg */
 @media only screen and (min-width : 1200px) {
+    .about-card {
+        height: 550px;
+    }
+    
     .post-overview-wrapper {
         height: 180px;
     }
@@ -384,6 +452,7 @@ audio {
     .instagram-embed {
         width: 40%;
     }
+    
 }
 
 /* --- Form Engage --- */
