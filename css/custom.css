@@ -67,7 +67,7 @@ nav li a {
 }
 
 .dark-background > footer > .row > div > p,
-.dark-background > footer > .row > div > p > a,
+.dark-background > footer > .row > div > p > a
 {
     color: rgba(255,255,255,0.7);
     text-decoration: none;
