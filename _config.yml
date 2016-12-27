@@ -45,5 +45,7 @@ defaults:
     address: ''
     start_date: ''
     link: ''
+jekyll-minifier:
+    exclude: 'engage/index.php'
 gems:
 - jekyll-minifier
