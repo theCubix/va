@@ -25,6 +25,9 @@ if(isset($_POST['submit'])){
 <html lang="de">
     <head>
         
+        <base href="http://www.voltagearc.com">
+        
+        
         <meta property="og:image" content="http://va.siteleaf.net/uploads/drums.jpg"/>
         
         <meta property="og:title" content="Buchen" />
@@ -37,7 +40,6 @@ if(isset($_POST['submit'])){
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link href="/css/custom.css" rel="stylesheet">
         <link rel="icon" href="/uploads/icon192x192.png">
-        
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -52,6 +54,15 @@ if(isset($_POST['submit'])){
                 js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.8";
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-86605317-2', 'auto');
+            ga('send', 'pageview');
+        </script>
         
         <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
     <div class="container">
@@ -84,26 +95,28 @@ if(isset($_POST['submit'])){
             <div class="row">
                 <div class="material-shadow-1 material-section col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
                     <h1>Buchen</h1>
-                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     <form action="" method="post">
         <div class="form-group">
             <label>Vorname</label>
-            <input type="text" class="form-control" name="first_name" placeholder="Vorname">
+            <input type="text" class="form-control" name="first_name" id="first_name" placeholder="Vorname" required>
         </div>
         <div class="form-group">
             <label>Nachname</label>
-            <input type="text" class="form-control" name="last_name" placeholder="Nachname">
+            <input type="text" class="form-control" name="last_name" placeholder="Nachname" required>
         </div>
-        <div class="form-group">
+        <div id="email_validate" class="form-group">
             <label>E-Mail Adresse</label>
-            <input type="text" class="form-control" name="email" placeholder="E-Mail">
+            <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail">
+            <span id="result" class="help-block"></span>
         </div>
         <div class="form-group">
-            <label>Hier haben Sie Platz, den Anlass zu beschreiben und die gewünschten Daten anzugeben.</label>
-            <textarea rows="5" class="form-control" name="message" cols="30" placeholder="Bemerkung"></textarea>
+            <label>Hier hast du Platz, den Anlass zu beschreiben und das gewünschten Datum anzugeben.</label>
+            <textarea rows="5" class="form-control" name="message" cols="30" placeholder="Bemerkung" required></textarea>
         </div>
-        <input type="submit" name="submit" value="Absenden" class="btn btn-default pull-right">
+        <input type="submit" id="validate" value="Absenden" class="btn btn-default pull-right">
     </form>
+    <p class="label label-default"><span class="glyphicon glyphicon-exclamation-sign"></span> Alle Felder müssen ausgefüllt sein.</p>
 </div>
                 </div>
             </div>
