@@ -24,15 +24,21 @@ p, div {
 
 @keyframes pulse {
     0% {
-        color: rgba(0,0,0,0);
+        opacity: 1;
     }
+    
+    50% {
+        opacity: 0;
+    }
+    
     100% {
-        color: rgba(255,255,255,1);
+        opacity: 1;
     }
 }
 
 .animated {
-    animation: pulse 2s ease alternate infinite;
+    animation: pulse 5s infinite;
+    color: #fff;
 }
 
 .btn-default:hover {
@@ -150,7 +156,7 @@ nav li a {
 
 .btn-outline {
     margin: 250px 0 25px 0;
-    margin: 40vh 0 25px 0;
+    margin: 35vh 0 25px 0;
 }
 
 .landing-page > .btn-outline > a {
@@ -519,6 +525,11 @@ audio {
 .form-control {
     border-radius: 0;
     border: 4px solid #424242;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
 }
 
 /* --- Gallery ---*/

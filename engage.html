@@ -6,24 +6,26 @@ background_image: "/uploads/drums.jpg"
 background_image_caption: ''
 ---
 
- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     <form action="" method="post">
         <div class="form-group">
             <label>Vorname</label>
-            <input type="text" class="form-control" name="first_name" placeholder="Vorname">
+            <input type="text" class="form-control" name="first_name" id="first_name" placeholder="Vorname" required>
         </div>
         <div class="form-group">
             <label>Nachname</label>
-            <input type="text" class="form-control" name="last_name" placeholder="Nachname">
+            <input type="text" class="form-control" name="last_name" placeholder="Nachname" required>
         </div>
-        <div class="form-group">
+        <div id="email_validate" class="form-group">
             <label>E-Mail Adresse</label>
-            <input type="text" class="form-control" name="email" placeholder="E-Mail">
+            <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail">
+            <span id="result" class="help-block"></span>
         </div>
         <div class="form-group">
-            <label>Hier haben Sie Platz, den Anlass zu beschreiben und die gewünschten Daten anzugeben.</label>
-            <textarea rows="5" class="form-control" name="message" cols="30" placeholder="Bemerkung"></textarea>
+            <label>Hier hast du Platz, den Anlass zu beschreiben und das gewünschten Datum anzugeben.</label>
+            <textarea rows="5" class="form-control" name="message" cols="30" placeholder="Bemerkung" required></textarea>
         </div>
-        <input type="submit" name="submit" value="Absenden" class="btn btn-default pull-right">
+        <input type="submit" id="validate" value="Absenden" class="btn btn-default pull-right">
     </form>
+    <p class="label label-default"><span class="glyphicon glyphicon-exclamation-sign"></span> Alle Felder müssen ausgefüllt sein.</p>
 </div>
