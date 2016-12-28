@@ -25,8 +25,6 @@ if(isset($_POST['submit'])){
 <html lang="de">
     <head>
         
-        <base href="http://www.voltagearc.com">
-        
         
         <meta property="og:image" content="http://www.voltagearc.com/uploads/drums.jpg"/>
         
@@ -96,7 +94,7 @@ if(isset($_POST['submit'])){
                 <div class="material-shadow-1 material-section col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
                     <h1>Buchen</h1>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <form action="" method="post">
+    <form id="bookingForm" action="" method="post">
         <div class="form-group">
             <label>Vorname</label>
             <input type="text" class="form-control" name="first_name" id="first_name" placeholder="Vorname" required>

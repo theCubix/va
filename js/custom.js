@@ -24,7 +24,7 @@ function validate() {
     var name = $("#first_name").val();
     var email = $("#email").val();
     if (validateEmail(email)) {
-        return true;
+        $('#bookingForm').submit();
     } else {
         $("#result").text(name + ", bitte gib eine gültige Mail-Adresse ein.");
         $("#email_validate").addClass("has-error")
