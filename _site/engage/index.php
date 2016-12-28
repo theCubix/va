@@ -133,6 +133,7 @@ if(isset($_POST['submit'])){
         <h1>Folge uns!</h1>
         <p><a href="https://fb.me/VoltageArc" target="_blank">Facebook</a></p>
         <p><a href="https://www.instagram.com/voltage_arc/" target="_blank">Instagram</a></p>
+        <p><a href="https://www.youtube.com/channel/UCdARchfQvlOBcMNZynTPRCg" target="_blank">YouTube</a></p>
       </div>
     </div>
   </footer>
