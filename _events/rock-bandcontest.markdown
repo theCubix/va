@@ -13,4 +13,4 @@ Wir nehmen an dem Rock Bandcontest in der Musigburg teil und treten dort gegen d
 
 Eintritt: Fr. 5
 
-Wir freuen uns ab jeder Unterstützung.
+> Je mehr Personen uns unterstützen, desto besser stehen unsere chancen zu gewinnen. Wir freuen uns über jeden, der uns anfeuert!
