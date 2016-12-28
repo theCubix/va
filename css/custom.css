@@ -384,6 +384,10 @@ audio {
     .instagram-embed {
         width: 100%;
     }
+
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	border-bottom: none;
+    }
 }
 
 /* xs */ 
@@ -410,8 +414,13 @@ audio {
     .post-overview-wrapper {
         height: auto;
     }
+
     .instagram-embed {
         width: 100%;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	border-bottom: none;
     }
 }
 
