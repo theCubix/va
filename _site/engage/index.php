@@ -25,8 +25,6 @@ if(isset($_POST['submit'])){
 <html lang="de">
     <head>
         
-        <base href="http://www.voltagearc.com">
-        
         
         <meta property="og:image" content="http://www.voltagearc.com/uploads/drums.jpg"/>
         
