@@ -28,10 +28,10 @@ if(isset($_POST['submit'])){
         <base href="http://www.voltagearc.com">
         
         
-        <meta property="og:image" content="http://va.siteleaf.net/uploads/drums.jpg"/>
+        <meta property="og:image" content="http://www.voltagearc.com/uploads/drums.jpg"/>
         
         <meta property="og:title" content="Buchen" />
-        <meta property="og:url" content="http://va.siteleaf.net/engage/index.php" />
+        <meta property="og:url" content="http://www.voltagearc.com/engage/index.php" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -87,7 +87,7 @@ if(isset($_POST['submit'])){
 </nav>
 
         
-                <div class="fullscreen-image" style="background-image:url(/uploads/drums.jpg)" title="page.image_caption">
+                <div class="fullscreen-image" style="background-image:url(/uploads/drums.jpg)" title="">
             <div id="backgroundOverlay">
             </div>
         </div>
