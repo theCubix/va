@@ -86,8 +86,9 @@ nav li a {
     color: white;
     background-color: #222222;
     font-weight: 800;
-    border-bottom: 3px solid #C62828;
 }
+
+
 
 /* --- Footer --- */
 .dark-background {
@@ -447,6 +448,10 @@ audio {
     .instagram-embed {
         width: 80%;
     }
+	
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+        border-bottom: 3px solid #C62828;
+    }
 }
 
 /* md */
@@ -470,6 +475,10 @@ audio {
     }
     .instagram-embed {
         width: 50%;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+        border-bottom: 3px solid #C62828;
     }
 }
 
@@ -499,6 +508,10 @@ audio {
     .landing-page > h1 {
 	padding-top: 40vh;
 	font-size: 5em;
+    }
+
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+        border-bottom: 3px solid #C62828;
     }
 }
 
