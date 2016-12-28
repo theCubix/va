@@ -1,7 +1,7 @@
 
 
 <?php 
-if(!isset($_POST['submit'])){
+if(isset($_POST['submit'])){
     $to = "timon.forrer@gmail.com";
     $from = $_POST['email'];
     $first_name = $_POST['first_name'];
