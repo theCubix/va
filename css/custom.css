@@ -126,11 +126,6 @@ nav li a {
     text-align: center;
 }
 
-.landing-page > h1 {
-    color: #fff;
-    font-size: 3.5em;
-}
-
 .btn-outline {
     margin: 250px 0 25px 0;
     margin: 40vh 0 25px 0;
@@ -166,11 +161,13 @@ video#bgvid {
 }
 
 /* --- Hero Title --- */
-.landing-page h1 {
+.landing-page > h1 {
     margin: 0;
     padding-top: 190px;
     padding-top: 35vh;
-    font-size: 4em;
+    font-size: 3.5em;
+    color: #fff;
+    font-size: 3.5em;
 }
 
 /* --- Facebook Page Plugin --- */
