@@ -35,6 +35,12 @@ p, div {
     animation: pulse 2s ease alternate infinite;
 }
 
+.btn-default:hover {
+    color: #fff;
+    background-color: #c62828;
+    border-color: #a94442;
+}
+
 /* --- Material Components --- */
 .material-shadow-hover {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -108,7 +114,7 @@ nav li a {
 
 .dark-background > footer > .row > div > p > a:hover,
 .dark-background > footer > .row > div > p > a:focus {
-    color: #337ab7;
+    color: #c62828;
     border-bottom: 1px dotted;
 }
 
@@ -264,7 +270,7 @@ audio {
 
 .events-site-header {
     font-size: 2.5em;
-    color: #D32F2F;
+    color: #C62828;
     margin-top: 40px;
 }
 
