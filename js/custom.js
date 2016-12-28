@@ -1,6 +1,15 @@
+/* --- Fade Image On Scroll --- */
 $(window).scroll(function() {
     $(".fullscreen-image").css({
         'opacity': 1 - (($(this).scrollTop()) / 250)
+    });
+});
+
+/* --- Smooth Page Scroll --- */
+jQuery(document).ready(function($) {
+    $(".scroll").click(function(event){     
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
     });
 });
 
