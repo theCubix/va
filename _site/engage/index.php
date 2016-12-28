@@ -1,7 +1,7 @@
 
 
 <?php 
-if(isset($_POST['submit'])){
+if(!isset($_POST['submit'])){
     $to = "timon.forrer@gmail.com";
     $from = $_POST['email'];
     $first_name = $_POST['first_name'];
@@ -24,6 +24,8 @@ if(isset($_POST['submit'])){
 <!DOCTYPE HTML>
 <html lang="de">
     <head>
+        
+        <base href="http://www.voltagearc.com">
         
         
         <meta property="og:image" content="http://www.voltagearc.com/uploads/drums.jpg"/>
