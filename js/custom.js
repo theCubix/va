@@ -28,8 +28,8 @@ function validate() {
     } else {
         $("#result").text(name + ", bitte gib eine gültige Mail-Adresse ein.");
         $("#email_validate").addClass("has-error")
+        return false;
     }
-    return false;
 }
 
 $("#validate").bind("click", validate);
