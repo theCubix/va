@@ -217,6 +217,11 @@ audio {
     overflow: hidden;
 }
 
+.about-card > img {
+    border: 2px solid;
+    padding: 2px;
+}
+
 .align-bottom {
     position: absolute;
     bottom: 30px;
