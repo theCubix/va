@@ -128,6 +128,7 @@ nav li a {
 
 .landing-page > h1 {
     color: #fff;
+    font-size: 3.5em;
 }
 
 .btn-outline {
@@ -453,6 +454,10 @@ audio {
         width: 40%;
     }
     
+    .landing-page > h1 {
+	padding-top: 40vh;
+	font-size: 5em;
+    }
 }
 
 /* --- Form Engage --- */
