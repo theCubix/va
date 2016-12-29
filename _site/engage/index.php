@@ -5,44 +5,48 @@ $firstNameErr = $lastNameErr = $emailErr = $descriptionErr = "";
 $firstName = $lastName = $email = $description = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["firstName"])) {
-    $firstNameErr = "Vorname wird benötigt";
-  } else {
-    $firstName = test_input($_POST["firstName"]);
-    // check if name only contains letters and whitespace
-    if (!preg_match("/^[a-zA-Z ]*$/",$firstName)) {
-      $firstNameErr = "Nur Buchstaben sind erlaubt"; 
+    if (empty($_POST["firstName"])) {
+        $firstNameErr = "Vorname wird benötigt";
+    } else {
+        $firstName = test_input($_POST["firstName"]);
+        // check if name only contains letters and whitespace
+        if (!preg_match("/^[a-zA-Z ]*$/",$firstName)) {
+            $firstNameErr = "Nur Buchstaben sind erlaubt"; 
+        }
     }
-  }
-  
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["lastName"])) {
-    $lastNameErr = "Nachname wird benötigt";
-  } else {
-    $lastName = test_input($_POST["lastName"]);
-    if (!preg_match("/^[a-zA-Z ]*$/",$lastName)) {
-      $lastNameErr = "Nur Buchstaben sind erlaubt"; 
+    
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (empty($_POST["lastName"])) {
+            $lastNameErr = "Nachname wird benötigt";
+        } else {
+            $lastName = test_input($_POST["lastName"]);
+            if (!preg_match("/^[a-zA-Z ]*$/",$lastName)) {
+                $lastNameErr = "Nur Buchstaben sind erlaubt"; 
+            }
+        }
     }
-  }
-  
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["email"])) {
-    $emailErr = "E-Mail Adresse wird benötigt";
-  } else {
-    $email = test_input($_POST["email"]);
-    // check if e-mail address is well-formed
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $emailErr = "Ungültiges E-Mailadressen-Format"; 
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (empty($_POST["email"])) {
+            $emailErr = "E-Mail Adresse wird benötigt";
+        } else {
+            $email = test_input($_POST["email"]);
+            // check if e-mail address is well-formed
+            if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                $emailErr = "Ungültiges E-Mailadressen-Format"; 
+            }
+        }
     }
-  }
-  
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["description"])) {
-    $descriptionErr = "Bemerkung wird benötigt";
-  } else {
-    $description = test_input($_POST["description"]);
-  }
-  
+        
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (empty($_POST["description"])) {
+            $descriptionErr = "Bemerkung wird benötigt";
+        } else {
+            $description = test_input($_POST["description"]);
+        }
+
+    }
+
 }
 
 function test_input() {
@@ -56,7 +60,6 @@ function test_input() {
   mail($to, $subject, $message, $headers);
 }
 ?>
-
 
 
 
