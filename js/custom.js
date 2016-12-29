@@ -13,27 +13,6 @@ jQuery(document).ready(function($) {
     });
 });
 
-/* --- Mail Validation --- */
-function validateEmail(email) {
-  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(email);
-}
-
-function validate() {
-    $("#result").text("");
-    var name = $("#first_name").val();
-    var email = $("#email").val();
-    if (validateEmail(email)) {
-        $('#bookingForm').submit();
-    } else {
-        $("#result").text(name + ", bitte gib eine gültige Mail-Adresse ein.");
-        $("#email_validate").addClass("has-error")
-        return false;
-    }
-}
-
-$("#validate").bind("click", validate);
-
 /* --- Swipebox --- */
 /*! Swipebox v1.4.4 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
 
