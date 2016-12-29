@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
 }
 
-function test_input($data) {
+function test_input() {
   $to      = 'timon.forrer@gmail.com';
   $subject = $firstName . " " . $lastName . " möchte Voltage Arc buchen!";
   $message = $firstName . " schrieb" . $description;
