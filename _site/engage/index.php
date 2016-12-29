@@ -1,29 +1,70 @@
 
 
-<?php 
-if(isset($_POST['submit'])){
-    $to = "timon.forrer@gmail.com";
-    $from = $_POST['email'];
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-    $subject = $first_name . " " . $last_name . " möchte Voltage Arc Buchen!";
-    $subject2 = "Kopie deiner Buchungsanfrage";
-    $message = $first_name . " " . $last_name . " schrieb folgendes:" . "\n\n" . $_POST['message'];
-    $message2 = "Hallo " . $first_name . ". Hier ist eine Kopie deiner Anfrage bei Voltage Arc " . "\n\n" . $_POST['message'];
+<?php
+$firstNameErr = $lastNameErr = $emailErr = $descriptionErr = "";
+$firstName = $lastName = $email = $description = "";
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail versendet. Danke " . $first_name . ", wir werden Sie zeitnah kontaktieren.";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["firstName"])) {
+    $firstNameErr = "Vorname wird benötigt";
+  } else {
+    $firstName = test_input($_POST["firstName"]);
+    // check if name only contains letters and whitespace
+    if (!preg_match("/^[a-zA-Z ]*$/",$firstName)) {
+      $firstNameErr = "Nur Buchstaben sind erlaubt"; 
     }
+  }
+  
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["lastName"])) {
+    $lastNameErr = "Nachname wird benötigt";
+  } else {
+    $lastName = test_input($_POST["lastName"]);
+    if (!preg_match("/^[a-zA-Z ]*$/",$lastName)) {
+      $lastNameErr = "Nur Buchstaben sind erlaubt"; 
+    }
+  }
+  
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["email"])) {
+    $emailErr = "E-Mail Adresse wird benötigt";
+  } else {
+    $email = test_input($_POST["email"]);
+    // check if e-mail address is well-formed
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailErr = "Ungültiges E-Mailadressen-Format"; 
+    }
+  }
+  
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["description"])) {
+    $descriptionErr = "Bemerkung wird benötigt";
+  } else {
+    $description = test_input($_POST["description"]);
+  }
+  
+}
+
+function test_input() {
+  $to      = 'timon.forrer@gmail.com';
+  $subject = $firstName . " " . $lastName . " möchte Voltage Arc buchen!";
+  $message = $firstName . " schrieb" . $description;
+  $headers = 'From: ' . $email . "\r\n" .
+      'Reply-To: ' . $email . "\r\n" .
+      'X-Mailer: PHP/' . phpversion();
+
+  mail($to, $subject, $message, $headers);
+}
 ?>
+
 
 
 
 <!DOCTYPE HTML>
 <html lang="de">
     <head>
+        
+        <base href="http://www.voltagearc.com">
         
         
         <meta property="og:image" content="http://www.voltagearc.com/uploads/drums.jpg"/>
@@ -94,28 +135,41 @@ if(isset($_POST['submit'])){
                 <div class="material-shadow-1 material-section col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
                     <h1>Buchen</h1>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <form id="bookingForm" action="" method="post">
+    
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+        
         <div class="form-group">
             <label>Vorname</label>
-            <input type="text" class="form-control" name="first_name" id="first_name" placeholder="Vorname" required>
+            <input type="text" class="form-control" placeholder="Vorname" name="firstName">
+            <span class="help-block"><?php echo $firstNameErr;?></span>
         </div>
+        
         <div class="form-group">
             <label>Nachname</label>
-            <input type="text" class="form-control" name="last_name" placeholder="Nachname" required>
+            <input type="text" class="form-control" placeholder="Nachname" name="lastName">
+            <span class="help-block"><?php echo $lastNameErr;?></span>
         </div>
-        <div id="email_validate" class="form-group">
+        
+        <div class="form-group">
             <label>E-Mail Adresse</label>
-            <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail">
-            <span id="result" class="help-block"></span>
+            <input type="text" class="form-control" placeholder="E-Mail" name="email">
+            <span class="help-block"><?php echo $emailErr;?></span>
         </div>
+        
         <div class="form-group">
             <label>Hier hast du Platz, den Anlass zu beschreiben und das gewünschten Datum anzugeben.</label>
-            <textarea rows="5" class="form-control" name="message" cols="30" placeholder="Bemerkung" required></textarea>
+            <textarea rows="5" class="form-control" cols="30" placeholder="Bemerkung" name="description"></textarea>
+            <span class="help-block"><?php echo $descriptionErr;?></span>
         </div>
-        <input type="submit" id="validate" value="Absenden" class="btn btn-default pull-right">
+        
+        <input type="submit" value="Submit" value="Absenden" class="btn btn-default pull-right" name="submit">
+        
     </form>
+    
     <p class="label label-default"><span class="glyphicon glyphicon-exclamation-sign"></span> Alle Felder müssen ausgefüllt sein.</p>
+
 </div>
+
                 </div>
             </div>
         </div>
