@@ -44,9 +44,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
+  $to      = 'timon.forrer@gmail.com';
+  $subject = $firstName . " " . $lastName . " möchte Voltage Arc buchen!";
+  $message = $firstName . " schrieb" . $description;
+  $headers = 'From: ' . $email . "\r\n" .
+      'Reply-To: ' . $email . "\r\n" .
+      'X-Mailer: PHP/' . phpversion();
+
+  mail($to, $subject, $message, $headers);
 }
 ?>
