@@ -56,9 +56,7 @@ function test_input($data) {
     return $data;
 }
 
-$formData = array_filter($data);
-
-if ($formData) {
+if ($data) {
     $to      = 'timon.forrer@gmail.com';
     $subject = $firstName . " " . $lastName . " möchte Voltage Arc buchen!";
     $message = $firstName . " schrieb" . "\n" . $description;
