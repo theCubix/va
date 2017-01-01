@@ -71,7 +71,7 @@ p, div {
 
 .material-corner { 
     border-radius: 3px;
-
+    overflow: hidden;
 }
 
 .material-ease {
@@ -94,7 +94,9 @@ nav li a {
     font-weight: 800;
 }
 
-
+.navbar-brand>img {
+    height: 27px;
+}
 
 /* --- Footer --- */
 .dark-background {
