@@ -60,7 +60,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
     $to      = 'timon.forrer@gmail.com';
     $subject = $firstName . " " . $lastName . " möchte Voltage Arc buchen!";
     $message = $firstName . " schrieb" . "\n" . $description;
-    $headers = 'From: ' . $email . "\r\n" .
+    $headers = 'From: ' . $firstName . " " . $lastName . "\r\n" .
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
