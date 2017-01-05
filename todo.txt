@@ -1,1 +1,1 @@
-Change permalink of 'engage' to /engage/index.php and update the navigation accordingly --> Form with Mail won't work otherwise!
+add phone and teddy contact
