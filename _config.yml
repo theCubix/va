@@ -47,6 +47,5 @@ defaults:
     link: ''
 jekyll-minifier:
   exclude: "engage/index.php"
-  exclude: "sitemap.xml"
 gems:
 - jekyll-minifier
