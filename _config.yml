@@ -46,6 +46,6 @@ defaults:
     start_date: ''
     link: ''
 jekyll-minifier:
-  exclude: "sitemap.xml"
+  exclude: sitemap.xml
 gems:
 - jekyll-minifier
