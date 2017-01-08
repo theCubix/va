@@ -75,6 +75,8 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
 <html lang="de">
     <head>
         
+        <base href="http://www.voltagearc.com">
+        
         
         <meta property="og:image" content="http://www.voltagearc.com/uploads/drums.jpg"/>
         
