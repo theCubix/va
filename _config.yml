@@ -46,6 +46,6 @@ defaults:
     start_date: ''
     link: ''
 jekyll-minifier:
-  exclude: "engage/index.php"
+  exclude: engage/index.php
 gems:
 - jekyll-minifier
