@@ -49,7 +49,7 @@ background_image_caption: ''
 
 <p class="event-site-location">Live at {{ event.location }}</p>
 
-<p class="event-site-time">Türöffnung: {{ event.start_date | date: "%I:%M" }}</p>
+<p class="event-site-time">Türöffnung: {{ event.start_date | date: "%R" }}</p>
 
 {% endfor %}
 
