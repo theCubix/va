@@ -1,7 +1,7 @@
 ---
 title: Rock Bandcontest
 date: 2016-12-18 16:37:00 Z
-state: upcoming
+state: former
 author: Voltage Arc
 location: Musigburg
 address: Bahnhofstrasse 50, 4663 Aarburg
