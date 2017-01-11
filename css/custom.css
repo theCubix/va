@@ -397,6 +397,10 @@ audio {
     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
 	border-bottom: none;
     }
+    .material-section {
+        margin-top: 400px;
+        margin-top: 80vh
+    }
 }
 
 /* xs */ 
@@ -430,6 +434,10 @@ audio {
 
     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
 	border-bottom: none;
+    }
+    .material-section {
+        margin-top: 400px;
+        margin-top: 80vh
     }
 }
 
