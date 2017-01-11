@@ -139,8 +139,6 @@ nav li a {
 
 .material-section {
     background-color: #ffffff;
-    margin-top: 350px;
-    margin-top: 50vh;
     min-height: 400px;
     min-height: 80vh;
     padding-bottom: 15px;
@@ -468,6 +466,10 @@ audio {
     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
         border-bottom: 3px solid #C62828;
     }
+    .material-section {
+        margin-top: 350px;
+        margin-top: 60vh
+    }
 }
 
 /* md */
@@ -495,6 +497,10 @@ audio {
 
     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
         border-bottom: 3px solid #C62828;
+    }
+    .material-section {
+        margin-top: 350px;
+        margin-top: 60vh
     }
 }
 
@@ -528,6 +534,10 @@ audio {
 
     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
         border-bottom: 3px solid #C62828;
+    }
+    .material-section {
+        margin-top: 350px;
+        margin-top: 60vh
     }
 }
 
