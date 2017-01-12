@@ -2,13 +2,14 @@
 title: Start
 layout: master
 background_image: "/uploads/thumbnail.jpg"
+image_caption: Merlin während der Bandprobe
 ---
 
 <div class="landing-page">
     <h1>Voltage Arc</h1>
     <div class="btn-outline"><a href="#scroll" class="scroll">Mehr Erfahren</a></div>
     <span class="glyphicon glyphicon-chevron-down animated"></span>
-    <video poster="/uploads/thumbnail.jpg" playsinline autoplay muted loop id="bgvid">
+    <video poster="{{ page.background_image }}" playsinline autoplay muted loop id="bgvid" title="{{ page.image_caption }}">
         <source src="/uploads/voltage_arc_background_video.mp4" type="video/mp4">
     </video>
 </div>
