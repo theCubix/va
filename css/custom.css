@@ -234,7 +234,7 @@ video#bgvid {
 	padding: 10px;
 }
 
-.material-card>.bottom-container>.text-container>h1 {
+.material-card>.bottom-container>.text-container>h2 {
 	margin: 0;
 }
 
@@ -472,7 +472,7 @@ audio {
     }
     
     .material-card>.bottom-container {
-        height: 130px;
+        height: 125px;
     }
 }
 
@@ -515,7 +515,7 @@ audio {
     }
     
     .material-card>.bottom-container {
-        height: 130px;
+        height: 125px;
     }
     
     .material-card {
@@ -566,7 +566,7 @@ audio {
     }
     
     .material-card:hover .bottom-container {
-        height: 130px;
+        height: 120px;
     }
     
     .material-card {
@@ -615,7 +615,7 @@ audio {
     }
     
     .material-card:hover .bottom-container {
-        height: 130px;
+        height: 120px;
     }
     
     
@@ -670,7 +670,7 @@ audio {
     }
     
     .material-card:hover .bottom-container {
-        height: 130px;
+        height: 120px;
     }
     
     .material-card {
