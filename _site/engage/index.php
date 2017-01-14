@@ -75,8 +75,6 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
 <html lang="de">
     <head>
         
-        <base href="http://www.voltagearc.com">
-        
         
         <meta property="og:image" content="http://www.voltagearc.com/uploads/drums.jpg"/>
         
@@ -123,7 +121,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
                 <span class="icon-bar"></span>                        
             </button>
             <a class="navbar-brand" href="/">
-                <img alt="Voltage Arc" src="uploads/logo.png">
+                <img alt="Voltage Arc" src="/uploads/logo.png">
             </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
