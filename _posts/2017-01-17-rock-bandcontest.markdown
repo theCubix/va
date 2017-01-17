@@ -16,3 +16,5 @@ Und trotzdem ist unser Sound beim Publikum angekommen. Dieses hatte auf das Rank
 Doch die Bewertung der Jury fiel weitaus kritischer aus. Schlussendlich belegten wir dann Platz vier. 
 
 Trotz diesem Resultat blicken wir guten Gewissens auf den Auftritt zurück, denn was bleibt sind die schönen Erinnerungen und die Gewissheit, das Publikum begeistert zu haben.
+
+![musigburg_soundcheck.jpg](/uploads/musigburg_soundcheck.jpg){: .img-responsive}
