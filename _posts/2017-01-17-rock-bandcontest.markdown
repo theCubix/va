@@ -9,7 +9,7 @@ background_image: "/uploads/musigburg_auftritt.jpg"
 image_caption: Auftritt in der Musigburg
 ---
 
-4 von insgesamt 20 Bands die sich beworben hatten durften am Rock Bandcontest in der [Musigburg](http://www.musigburg.ch) in Aarburg teilnehmen. Die Sieger Band bekommt einen Support Slot für den Auftritt von [Bonfire](http://www.bonfire.de/) in der Musigburg. Solch eine Chance war eine grosse Ehre für uns. Gleichermassen war es aber auch eine grosse Herausforderung, da die anderen drei Bands bereits mehrere Jahre Bühnenerfahrung haben.
+4 von insgesamt 20 Bands, die sich beworben hatten durften am Rock Bandcontest in der [Musigburg](http://www.musigburg.ch) in Aarburg teilnehmen. Die Sieger Band bekommt einen Support Slot für den Auftritt von [Bonfire](http://www.bonfire.de/) in der Musigburg. Solch eine Chance war eine grosse Ehre für uns. Gleichermassen war es aber auch eine grosse Herausforderung, da die anderen drei Bands bereits mehrere Jahre Bühnenerfahrung haben.
 
 Und trotzdem ist unser Sound beim Publikum angekommen. Dieses hatte auf das Ranking einen Einfluss von 40% – nur 1 Dezibel trennte uns laut Applaus der Zuhörern vom 1. Platz.
 
