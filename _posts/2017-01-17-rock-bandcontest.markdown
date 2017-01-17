@@ -19,4 +19,4 @@ Trotz diesem Resultat blicken wir guten Gewissens auf den Auftritt zurück, denn
 
 ![musigburg_soundcheck.jpg](/uploads/musigburg_soundcheck.jpg){: .img-responsive}
 
-^
+> Bild: Soundcheck in der Musigburg
