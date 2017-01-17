@@ -18,3 +18,5 @@ Doch die Bewertung der Jury fiel weitaus kritischer aus. Schlussendlich belegten
 Trotz diesem Resultat blicken wir guten Gewissens auf den Auftritt zurück, denn was bleibt sind die schönen Erinnerungen und die Gewissheit, das Publikum begeistert zu haben.
 
 ![musigburg_soundcheck.jpg](/uploads/musigburg_soundcheck.jpg){: .img-responsive}
+
+^
