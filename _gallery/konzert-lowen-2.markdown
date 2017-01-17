@@ -2,8 +2,8 @@
 title: Könzert Löwen 2
 date: 2016-12-10 19:38:00 Z
 position: 7
-thumbnail_path: "/uploads/concert_l%C3%B6wen_2.jpg"
-image_path: "/uploads/concert_l%C3%B6wen_2.jpg"
+thumbnail_path: concert_l%C3%B6wen_2_thumbnail.jpg
+image_path: concert_l%C3%B6wen_2.jpg
 caption: Die Anlage im Löwen
 ---
 
