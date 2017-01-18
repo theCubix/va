@@ -1,7 +1,8 @@
 ---
 title: Rock Bandcontest
 date: 2017-01-17 21:03:00 Z
-description: Wir nahmen am Rock Bandcontest der Musigburg teil. Du kannst den ganzen Gig hier anschauen.
+description: Wir nahmen am Rock Bandcontest der Musigburg teil. Du kannst den ganzen
+  Gig hier anschauen.
 author: Voltage Arc
 video: LfVfZoTnLMw
 background_image: "/uploads/musigburg_auftritt.jpg"
@@ -16,6 +17,6 @@ Doch die Bewertung der Jury fiel weitaus kritischer aus. Schlussendlich belegten
 
 Trotz diesem Resultat blicken wir guten Gewissens auf den Auftritt zurück, denn was bleibt sind die schönen Erinnerungen und die Gewissheit, das Publikum begeistert zu haben.
 
-![musigburg_soundcheck.jpg](/uploads/musigburg_soundcheck.jpg){: .img-responsive}
+![musigburg_soundcheck.jpg](/uploads/musigburg_soundcheck.jpg){: .img-responsive .material-shadow-1 .material-corner}
 
 > Bild: Soundcheck in der Musigburg
