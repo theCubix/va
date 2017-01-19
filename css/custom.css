@@ -14,6 +14,10 @@ p, div {
     font-family: 'Lato';
 }
 
+blockquote {
+    font-size: 1em;
+}
+
 .padding-top-plus {
     padding-top: 40px;
 }
@@ -48,6 +52,22 @@ p, div {
 }
 
 /* --- Material Components --- */
+.material-simple-card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.material-simple-card > h1 {
+    margin: 0 0 10px 0;
+}
+
+.material-simple-card > p {
+    margin: 0;
+}
+
 .material-shadow-hover {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     background-color: #fff;
@@ -404,7 +424,7 @@ audio {
 
 .post-overview {
     height: 100%;
-    margin-bottom: 20px;
+    padding: 15px;
 }
 
 .post-overview > a {
@@ -422,13 +442,13 @@ audio {
 }
 
 .post-overview > a > h2 {
-    margin-bottom: 2px;
+    margin: 8px 0 4px 0;
 }
-
+/*
 .post-overview-wrapper > .post-overview > .btn {
     position: relative;
 }
-
+*/
 .post-overview-image {
     padding: 0;
     background-size: cover;
@@ -530,7 +550,7 @@ audio {
     }
     
     .post-overview-wrapper {
-        height: 190px;
+        height: 240px;
     }
     
     .post-overview-image {
@@ -539,8 +559,8 @@ audio {
     
     .post-overview-wrapper > .post-overview > .btn {
         position: absolute;
-        right: 0;
-        bottom: 0;
+        right: 15px;
+        bottom: 15px;
     }
     
     .instagram-embed {
@@ -590,9 +610,10 @@ audio {
     
     .post-overview-wrapper > .post-overview > .btn {
         position: absolute;
-        right: 0;
-        bottom: 0;
+        right: 15px;
+        bottom: 15px;
     }
+    
     .instagram-embed {
         width: 50%;
     }
@@ -631,7 +652,7 @@ audio {
     }
     
     .post-overview-wrapper {
-        height: 180px;
+        height: 210px;
     }
     
     .post-overview-image {
@@ -640,8 +661,8 @@ audio {
     
     .post-overview-wrapper > .post-overview > .btn {
         position: absolute;
-        right: 0;
-        bottom: 0;
+        right: 15px;
+        bottom: 15px;
     }
     .instagram-embed {
         width: 40%;
@@ -713,11 +734,11 @@ audio {
 }
 
 .swipebox:hover .child, .swipebox:focus .child {
-    -ms-transform: scale(1.03);
-    -moz-transform: scale(1.03);
-    -webkit-transform: scale(1.03);
-    -o-transform: scale(1.03);
-    transform: scale(1.03);
+    -ms-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
 }
 
 .swipebox:hover .child:before, .swipebox:focus .child:before {
