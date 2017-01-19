@@ -8,10 +8,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat';
     font-weight: 700;
+    color: rgba(0,0,0,0.54);
 }
 
 p, div {
     font-family: 'Lato';
+    color: rgba(0,0,0,0.87);
 }
 
 blockquote {
@@ -108,14 +110,49 @@ nav li a {
     border-width: 0;
 }
 
+.navbar-inverse {
+    background-color: #c62828;
+}
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
     color: white;
-    background-color: #222222;
+    background-color: transparent;
     font-weight: 800;
 }
 
-.navbar-brand>img {
-    height: 27px;
+.navbar-inverse, .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none;
+}
+
+.navbar-nav > li > a {
+    line-height: 26px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: rgba(255,255,255,0.54);
+}
+
+.navbar-inverse .navbar-brand {
+    color: rgba(255,255,255,0.54);
+}
+
+.navbar-brand {
+    height: 63px;
+    line-height: 30px;
 }
 
 /* --- Footer --- */
@@ -126,7 +163,8 @@ nav li a {
 }
 
 .dark-background > footer > .row > div > h1 {
-    font-size: 1.5em
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.54)
 }
 
 .dark-background > footer > .row > div > p > a {
@@ -414,7 +452,7 @@ audio {
 }
 
 .border-wrapper {
-    border: 4px solid #424242;
+    border: 4px solid #fff;
 }
 
 /* --- Material Blog Component --- */
@@ -545,6 +583,11 @@ audio {
 
 /* sm */
 @media only screen and (min-width : 768px) {
+    
+    .navbar-nav > li > a {
+        padding-top: 18px;
+    }
+    
     .about-card {
         height: 500px;
     }
@@ -567,8 +610,9 @@ audio {
         width: 80%;
     }
 	
-    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-        border-bottom: 3px solid #C62828;
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus {
+        border-bottom: 4px solid #fff;
     }
     
     .material-section {
@@ -674,7 +718,7 @@ audio {
     }
 
     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-        border-bottom: 3px solid #C62828;
+        border-bottom: 4px solid #C62828;
     }
     .material-section {
         margin-top: 350px;

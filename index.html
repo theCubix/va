@@ -10,7 +10,9 @@ image_caption: Merlin während der Bandprobe
     <div class="btn-outline"><a href="#scroll" class="scroll">Mehr Erfahren</a></div>
     <span class="glyphicon glyphicon-chevron-down animated"></span>
     <video poster="{{ page.background_image }}" playsinline autoplay muted loop id="bgvid" title="{{ page.image_caption }}">
+        {% if jekyll.environment == 'production' %}
         <source src="/uploads/voltage_arc_background_video.mp4" type="video/mp4">
+        {% endif %}
     </video>
 </div>
 <div class="container" id="scroll">
