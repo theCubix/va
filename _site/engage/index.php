@@ -115,7 +115,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
         
-        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
