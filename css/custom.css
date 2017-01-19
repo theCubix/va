@@ -731,7 +731,7 @@ audio {
     }
 
     .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-        border-bottom: 4px solid ;
+        border-bottom: 4px solid #c62828;
     }
     .material-section {
         margin-top: 350px;
