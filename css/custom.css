@@ -8,10 +8,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat';
     font-weight: 700;
+    color: rgba(0,0,0,0.54);
 }
 
 p, div {
     font-family: 'Lato';
+    color: rgba(0,0,0,0.87);
 }
 
 blockquote {
@@ -99,6 +101,7 @@ blockquote {
 }
 
 /* --- Custom Navbar --- */
+
 nav li a {
     font-family: 'Montserrat';
     font-weight: 400;
@@ -108,14 +111,61 @@ nav li a {
     border-width: 0;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+.navbar-default {
+    background-color: #212121;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: white;
-    background-color: #222222;
+    background-color: transparent;
     font-weight: 800;
 }
 
-.navbar-brand>img {
-    height: 27px;
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+.navbar-nav > li > a {
+    line-height: 26px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: rgba(255,255,255,0.54);
+}
+
+.navbar-default .navbar-brand {
+    color: rgba(255,255,255,0.54);
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+
+.navbar-brand {
+    height: 63px;
+    line-height: 30px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
 }
 
 /* --- Footer --- */
@@ -126,7 +176,8 @@ nav li a {
 }
 
 .dark-background > footer > .row > div > h1 {
-    font-size: 1.5em
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.54)
 }
 
 .dark-background > footer > .row > div > p > a {
@@ -414,7 +465,7 @@ audio {
 }
 
 .border-wrapper {
-    border: 4px solid #424242;
+    border: 4px solid #fff;
 }
 
 /* --- Material Blog Component --- */
@@ -478,7 +529,7 @@ audio {
         width: 100%;
     }
 
-    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	border-bottom: none;
     }
     
@@ -525,7 +576,7 @@ audio {
         width: 100%;
     }
 
-    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	border-bottom: none;
     }
     
@@ -545,6 +596,11 @@ audio {
 
 /* sm */
 @media only screen and (min-width : 768px) {
+    
+    .navbar-nav > li > a {
+        padding-top: 18px;
+    }
+    
     .about-card {
         height: 500px;
     }
@@ -567,8 +623,9 @@ audio {
         width: 80%;
     }
 	
-    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-        border-bottom: 3px solid #C62828;
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        border-bottom: 4px solid #c62828;
     }
     
     .material-section {
@@ -618,8 +675,8 @@ audio {
         width: 50%;
     }
 
-    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-        border-bottom: 3px solid #C62828;
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+        border-bottom: 4px solid #c62828;
     }
     .material-section {
         margin-top: 350px;
@@ -673,8 +730,8 @@ audio {
         font-size: 5em;
     }
 
-    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-        border-bottom: 3px solid #C62828;
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+        border-bottom: 4px solid #c62828;
     }
     .material-section {
         margin-top: 350px;
