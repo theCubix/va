@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /css/
 Disallow: /fonts/
 Disallow: /js/
 Disallow: /uploads/Put_Up_Your_Head_(First_Demo).mp3
