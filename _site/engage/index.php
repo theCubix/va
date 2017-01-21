@@ -85,7 +85,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#c62828">
+        <meta name="theme-color" content="#424242">
         <title>Buchen – Voltage Arc Website</title>
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet">
         <link href="/css/bootstrap.css" rel="stylesheet">
