@@ -438,6 +438,10 @@ audio {
     margin-bottom: 50px;
 }
 
+.event-site-time:last-child {
+    margin-bottom: 0;
+}
+
 
 /* --- Tabs --- */
 .nav-tabs {
@@ -471,6 +475,10 @@ audio {
 /* --- Material Blog Component --- */
 .post-overview-wrapper {
     margin-bottom: 20px;
+}
+
+.post-overview-wrapper:last-child {
+    margin-bottom: 0;
 }
 
 .post-overview {
