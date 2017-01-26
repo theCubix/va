@@ -925,48 +925,49 @@ html.swipebox-html.swipebox-touch {
 
 #swipebox-bottom-bar,
 #swipebox-top-bar {
-  -webkit-transition: 0.5s;
-          transition: 0.5s;
-  position: absolute;
-  left: 0;
-  z-index: 999;
-  height: 50px;
-  width: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    height: 50px;
+    width: 100%;
 }
 
 #swipebox-bottom-bar {
-  bottom: -50px;
+    bottom: -50px;
 }
 #swipebox-bottom-bar.visible-bars {
-  -webkit-transform: translate3d(0, -50px, 0);
-          transform: translate3d(0, -50px, 0);
+    -webkit-transform: translate3d(0, -50px, 0);
+    transform: translate3d(0, -50px, 0);
 }
 
 #swipebox-top-bar {
-  top: -50px;
+    top: -50px;
 }
 #swipebox-top-bar.visible-bars {
-  -webkit-transform: translate3d(0, 50px, 0);
-          transform: translate3d(0, 50px, 0);
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
 }
 
 #swipebox-title {
-  display: block;
-  width: 100%;
-  text-align: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: rgba(255,255,255,0.87)
 }
 
 #swipebox-prev,
 #swipebox-next,
 #swipebox-close {
-  background-image: url(../uploads/icons.png);
-  background-repeat: no-repeat;
-  border: none !important;
-  text-decoration: none !important;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  top: 0;
+    background-image: url(../uploads/icons.png);
+    background-repeat: no-repeat;
+    border: none !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    top: 0;
 }
 
 #swipebox-arrows {
