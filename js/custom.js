@@ -1,6 +1,3 @@
-/* JS Optimisations */
-document.addEventListener('touchstart', onTouchStart, {passive: true});
-
 /* Material Motion -- Choreography */
 (function($) {
 	var speed = 2000;
