@@ -1,3 +1,6 @@
+/* JS Optimisations */
+document.addEventListener('touchstart', onTouchStart, {passive: true});
+
 /* --- Fade Image On Scroll --- */
 $(window).scroll(function() {
     $(".fullscreen-image").css({
