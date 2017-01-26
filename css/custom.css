@@ -1145,6 +1145,10 @@ body {
     position: absolute;
     right: 11px;
     top: 11px;
+    will-change: transform;
+    will-change: position;
+    will-change: height;
+    will-change: width;
 }
 
 .fab-trigger.active {
