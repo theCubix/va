@@ -106,9 +106,8 @@ blockquote {
   -ms-transform: scale(0);
   -o-transform: scale(0);
   transform: scale(0);
-  float: left;
 }
-.display-animation > .animated {
+.display-animation > .materialMotion {
   -webkit-animation: display 0.5s cubic-bezier(0.55, 0, 0.1, 1) forwards;
   -o-animation: display 0.5s cubic-bezier(0.55, 0, 0.1, 1) forwards;
   animation: display 0.5s cubic-bezier(0.55, 0, 0.1, 1) forwards;
@@ -122,42 +121,42 @@ blockquote {
 
 @keyframes display {
   from {
-    -webkit-transform: scale(0);
+	-webkit-transform: scale(0);
   }
   to {
-    -webkit-transform: scale(1);
+	-webkit-transform: scale(1);
   }
 }
 @-o-keyframes display {
   from {
-    -webkit-transform: scale(0);
+	-webkit-transform: scale(0);
   }
   to {
-    -webkit-transform: scale(1);
+	-webkit-transform: scale(1);
   }
 }
 @-ms-keyframes display {
   from {
-    -webkit-transform: scale(0);
+	-webkit-transform: scale(0);
   }
   to {
-    -webkit-transform: scale(1);
+	-webkit-transform: scale(1);
   }
 }
 @-moz-keyframes display {
   from {
-    -webkit-transform: scale(0);
+	-webkit-transform: scale(0);
   }
   to {
-    -webkit-transform: scale(1);
+	-webkit-transform: scale(1);
   }
 }
 @-webkit-keyframes display {
   from {
-    -webkit-transform: scale(0);
+	-webkit-transform: scale(0);
   }
   to {
-    -webkit-transform: scale(1);
+	-webkit-transform: scale(1);
   }
 }
 
