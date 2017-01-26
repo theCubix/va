@@ -106,6 +106,7 @@ blockquote {
   -ms-transform: scale(0);
   -o-transform: scale(0);
   transform: scale(0);
+  float: left;
 }
 .display-animation > .animated {
   -webkit-animation: display 0.5s cubic-bezier(0.55, 0, 0.1, 1) forwards;
