@@ -15,6 +15,16 @@ image_caption: Merlin während der Bandprobe
         {% endif %}
     </video>
 </div>
+
+{% if jekyll.environment != 'production' %}
+<div class="toolbar-wrapper">
+    <div class="fab-trigger">
+        <div class="fab">
+        </div>
+    </div>
+</div>
+{% endif %}
+
 <div class="container" id="scroll">
     <div class="material-simple-card" style="margin-top:90px;">
         <h1>Energie und moderne Beats – das sind Voltage Arc</h1>
