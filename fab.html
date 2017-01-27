@@ -5,76 +5,89 @@ permalink: "/fab/index.html"
 <!Doctype HTML>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-        /* --- General styling --- */
-        body {
-            margin: 0;
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	/* --- General styling --- */
+	body {
+		margin: 0;
+	}
+	
+	/* --- setting the size of the toolbar --- */
+	.toolbar-wrapper {
+		height: 78px;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		overflow: hidden;
+		z-index: 2;
+	}
+	
+	/* --- the element that triggers the action --- */
+	.fab {
+		height: 56px;
+		width: 56px;
+		background-color: #D50000;
+		border-radius: 50%;
+		position: absolute;
+		right: 5%;
+		top: 15%;
+		padding-top: 0;
+		transform: translateY(0);
+		/*
+		animation: material-motion-in 5000ms cubic-bezier(0.4, 0.0, 0.2, 1) alternate 1;
+		*/
+	}
+	
+	.fab.untriggered {
+		animation: material-motion-out 300ms cubic-bezier(0.4, 0.0, 0.2, 1) 1;
+	}
+		
+	.fab.triggered {
+		height: 0;
+		width: 106%;
+		top: 50%;
+		top: calc(50% - 28px);
+		right: -3%;
+		transform: translateY(-50%);
+		box-shadow: none;
+		padding-top: 100%;
+		/* --- define animation properties --- */
+		animation: material-motion-in 300ms cubic-bezier(0.4, 0.0, 0.2, 1) 1;
+	}
+
+	@keyframes material-motion-in {
+		0% {
+			height: 56px;
+			width: 56px;
+			right: 5%;
+			top: 15%;
+			padding-top: 0;
+			transform: translateY(0);
+		}
+		
+		50% {
+			height: 56px;
+			width: 56px;
+			padding-top: 0;
+			right: 50%;
+			right: calc(50% - 28px);
+			top: 15%;
+			transform: translateY(0);
+		}
+		
+		100% {
+			height: 0;
+                width: 106%;
+                padding-top: 100%;
+                top: 50%;
+                top: calc(50% - 28px);
+                right: -3%;
+                transform: translateY(-50%);
+            }
         }
 
-        /* --- setting the size of the toolbar --- */
-        .toolbar-wrapper {
-            margin: 0 auto;
-            height: 78px;
-            width: 100%;
-            position: fixed;
-            bottom: 0;
-            overflow: hidden;
-            z-index: 2;
-        }
-
-        /* --- the element that triggers the action --- */
-        .fab {
-            height: 56px;
-            width: 56px;
-            background-color: #D50000;
-            border-radius: 50%;
-            position: absolute;
-            right: 5%;
-            top: 15%;
-            padding-top: 0;
-            transform: translateY(0);
-            /*
-            animation: material-motion-in 5000ms cubic-bezier(0.4, 0.0, 0.2, 1) alternate 1;
-            */
-        }
-
-        .fab.untriggered {
-            animation: material-motion-in 5000ms cubic-bezier(0.4, 0.0, 0.2, 1) alternate 1;
-        }
-
-        .fab.triggered {
-            height: 0;
-            width: 106%;
-            top: 50%;
-            right: -3%;
-            transform: translateY(-50%);
-            box-shadow: none;
-            padding-top: 100%;
-            /* --- define animation properties --- */
-            animation: material-motion-in 300ms cubic-bezier(0.4, 0.0, 0.2, 1) 1;
-        }
-
-        @keyframes material-motion-in {
+        @keyframes material-motion-out {
             0% {
-                height: 56px;
-                width: 56px;
-                right: 5%;
-                top: 15%;
-                padding-top: 0;
-                transform: translateY(0);
-            }
-
-            50% {
-                height: 56px;
-                width: 56px;
-                padding-top: 0;
-                right: 50%;
-                top: 15%;
-                transform: translateY(0);
-            }
-
-            100% {
                 height: 0;
                 width: 106%;
                 padding-top: 100%;
@@ -82,7 +95,27 @@ permalink: "/fab/index.html"
                 right: -3%;
                 transform: translateY(-50%);
             }
+
+            50% {
+                height: 56px;
+                width: 56px;
+                padding-top: 0;
+                right: 50%;
+                right: calc(50% - 28px);
+                top: 15%;
+                transform: translateY(0);
+            }
+
+            100% {
+                height: 56px;
+                width: 56px;
+                right: 5%;
+                top: 15%;
+                padding-top: 0;
+                transform: translateY(0);
+            }
         }
+
         /*
         .fab:hover {
             box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -98,8 +131,13 @@ permalink: "/fab/index.html"
         </div>
         <script>
             $(document).ready(function(){
-                $(".fab").click(function(){
-                    $(".fab").toggleClass("triggered");
+            $(".fab").click(function(){
+                if ( $( this ).hasClass( "triggered" ) ) {
+                    $(".fab").removeClass("triggered");
+                    $(".fab").addClass("untriggered");
+                } else {
+                        $(".fab").addClass("triggered");
+                    }
                 });
             });
         </script>
