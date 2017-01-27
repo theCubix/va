@@ -13,6 +13,13 @@ jQuery(document).ready(function($) {
     });
 });
 
+/* --- FAB Toggle --- */
+$(document).ready(function(){
+                $(".fab-trigger").click(function(){
+                    $(".fab-trigger").toggleClass("triggered");
+                });
+            });
+
 /* --- Swipebox --- */
 /*! Swipebox v1.4.4 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
 
