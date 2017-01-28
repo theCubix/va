@@ -90,6 +90,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
         <meta name="theme-color" content="#424242">
         <title>Buchen – Voltage Arc Website</title>
         <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link href="/css/custom.css" rel="stylesheet">
         <link rel="icon" href="/uploads/icon192x192.png">
