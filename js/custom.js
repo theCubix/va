@@ -14,11 +14,17 @@ jQuery(document).ready(function($) {
 });
 
 /* --- FAB Toggle --- */
-$(document).ready(function(){
-                $(".fab-trigger").click(function(){
-                    $(".fab-trigger").toggleClass("triggered");
-                });
-            });
+ $(document).ready(function(){
+     $(".fab").click(function(){
+         $(".toolbar-wrapper").removeClass("untriggered");
+         $(".toolbar-wrapper").removeClass("initial");
+         $(".toolbar-wrapper").addClass("triggered");
+     });
+     $(".content").click(function(){
+         $(".toolbar-wrapper").removeClass("triggered");
+         $(".toolbar-wrapper").addClass("untriggered");
+     });
+ });
 
 /* --- Swipebox --- */
 /*! Swipebox v1.4.4 | Constantin Saguin csag.co | MIT License | github.com/brutaldesign/swipebox */
