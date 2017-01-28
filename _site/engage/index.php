@@ -135,13 +135,45 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
                 <li ><a href="/gallery/">Galerie</a></li>
                 <li ><a href="/blog/">Blog</a></li>
                 <li class="active"><a href="/engage/">Buchen</a></li>
+                <li ><a href="/contact/">Kontakt</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
         
-                <div class="fullscreen-image" style="background-image:url(/uploads/drums.jpg)" title="">
+                <div class="toolbar-wrapper initial ">
+    <div class="content">
+        <div class="item">
+            <a href="mailto:info@voltagearc.com">
+                <i class="material-icons material-ease">email</i>
+                <span class="material-ease">E-Mail</span>
+            </a>
+        </div>
+        <div class="item">
+            <a href="tel:0796898660">
+                <i class="material-icons material-ease">phone</i>
+                <span class="material-ease">Anrufen</span>
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <i class="material-icons material-ease">info</i>
+                <span class="material-ease">Mehr Infos</span>
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <i class="material-icons material-ease">close</i>
+                <span class="material-ease">Schliessen</span>
+            </a>
+        </div>
+    </div>
+    <div class="fab">
+        <i class="material-icons">email</i>
+    </div>
+</div>
+        <div class="fullscreen-image" style="background-image:url(/uploads/drums.jpg)" title="">
             <div id="backgroundOverlay">
             </div>
         </div>
