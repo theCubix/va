@@ -17,13 +17,17 @@ jQuery(document).ready(function($) {
  $(document).ready(function(){
      $(".fab").click(function(){
          $(".toolbar-wrapper").removeClass("untriggered");
-         $(".toolbar-wrapper").removeClass("initial");
          $(".toolbar-wrapper").addClass("triggered");
+         $('.toolbar-wrapper.triggered>.fab').css( "transform", "scale(" + c/28 + ")" );
      });
      $(".content").click(function(){
          $(".toolbar-wrapper").removeClass("triggered");
          $(".toolbar-wrapper").addClass("untriggered");
+         $('.toolbar-wrapper>.fab').css( "transform", "scale(1)" );
      });
+     var a2 = Math.pow($(".toolbar-wrapper").width()-52, 2);
+     var b2 = Math.pow(($(".toolbar-wrapper").height())/2, 2);
+     var c = Math.sqrt(a2+b2);
  });
 
 /* --- Swipebox --- */
