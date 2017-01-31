@@ -142,7 +142,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
 </nav>
 
         
-                <div class="toolbar-wrapper initial ">
+                <div class="toolbar-wrapper">
     <div class="content">
         <div class="item">
             <a href="mailto:info@voltagearc.com">
@@ -170,9 +170,10 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
         </div>
     </div>
     <div class="fab">
-        <i class="material-icons">email</i>
+        <i class="material-icons">add</i>
     </div>
 </div>
+
         <div class="fullscreen-image" style="background-image:url(/uploads/drums.jpg)" title="">
             <div id="backgroundOverlay">
             </div>
