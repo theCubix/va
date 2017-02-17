@@ -1127,7 +1127,7 @@ html.swipebox-html.swipebox-touch {
 }
 
 /* ---
-    FAB Backup
+    FAB
     --- */
 
 .toolbar-wrapper {
@@ -1137,6 +1137,11 @@ html.swipebox-html.swipebox-touch {
     bottom: 0;
     overflow: hidden;
     z-index: 2;
+    pointer-events: none;
+}
+
+.toolbar-wrapper.triggered {
+    pointer-events: all;
 }
 
 .content {
@@ -1240,4 +1245,6 @@ html.swipebox-html.swipebox-touch {
 	top: 24px;
 	transition: transform 250ms cubic-bezier(0.4, 0.0, 0.2, 1);
 	transform: scale(1);
+	pointer-events: all;
+	cursor: pointer;
 }
