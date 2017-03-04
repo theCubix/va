@@ -142,8 +142,8 @@ nav li a {
 
 .navbar-toggle > i.material-icons {
     color: #c62828;
-    font-size: 36px;
-    padding: 2px;
+    font-size: 32px;
+    padding: 4px;
     margin: 11.5px;
 }
 
@@ -1197,7 +1197,7 @@ html.swipebox-html.swipebox-touch {
 .item > a > i.material-icons {
     color: #fff;
     line-height: 36px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .item > a:hover > i.material-icons,
