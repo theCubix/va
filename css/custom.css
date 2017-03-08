@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat';
     font-weight: 300;
     color: rgba(0,0,0,0.54);
-    letter-spacing: -0.2rem;
+    letter-spacing: -0.05em;
 }
 
 h1 {
@@ -431,7 +431,11 @@ audio {
     margin-top: 40px;
 }
 
-.event-site-date {
+.event-container {
+    margin-bottom: 30px;
+}
+
+.event-container > h3 {
     margin-top: 5px;
     font-size: 3.5em;
     font-weight: 900;
@@ -439,21 +443,16 @@ audio {
     margin-bottom: -4px;
 }
 
-.event-site-date > a { color: black;}
+.event-container > h3 > a { color: black;}
 
-.event-site-location {
+.event-container > p {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-.event-site-time {
+.event-container > p.opening {
     color: #9E9E9E;
     font-size: 0.9em;
-    margin-bottom: 50px;
-}
-
-.event-site-time:last-child {
-    margin-bottom: 0;
 }
 
 

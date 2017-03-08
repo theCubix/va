@@ -18,15 +18,17 @@ background_image_caption: ''
 {% else %}
 {% for event in sorted_events %}
 
-<h3 class="event-site-date">
-    <a href="{{ event.url }}">
-        {{ event.start_date | date:  "%d. %B %Y" | replace:"January","Jan." | replace:"Februar","Feb." | replace:"March","März" | replace:"April","Apr." | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"August","Aug." | replace:"September","Sept." | replace:"October","Okt." | replace:"November","Nov." | replace:"December","Dez." }}
-    </a>
-</h3>
+<div class="event-container">
+    <h3>
+        <a href="{{ event.url }}">
+            {{ event.start_date | date:  "%d. %B %Y" | replace:"January","Jan." | replace:"Februar","Feb." | replace:"March","März" | replace:"April","Apr." | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"August","Aug." | replace:"September","Sept." | replace:"October","Okt." | replace:"November","Nov." | replace:"December","Dez." }}
+        </a>
+    </h3>
 
-<p class="event-site-location">Live at {{ event.location }}</p>
+    <p>Live at {{ event.location }}</p>
 
-<p class="event-site-time">Türöffnung: {{ event.start_date | date: "%R" }}</p>
+    <p class="opening">Türöffnung: {{ event.start_date | date: "%R" }}</p>
+</div>
 
 {% endfor %}
 
@@ -41,15 +43,17 @@ background_image_caption: ''
 {% assign sorted_events = (events | sort: 'start_date') | reverse %}
 {% for event in sorted_events %}
 
-<h3 class="event-site-date">
-    <a href="{{ event.url }}">
-        {{ event.start_date | date:  "%d. %B %Y" | replace:"January","Jan." | replace:"Februar","Feb." | replace:"March","März" | replace:"April","Apr." | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"August","Aug." | replace:"September","Sept." | replace:"October","Okt." | replace:"November","Nov." | replace:"December","Dez." }}
-    </a>
-</h3>
+<div class="event-container">
+    <h3>
+        <a href="{{ event.url }}">
+            {{ event.start_date | date:  "%d. %B %Y" | replace:"January","Jan." | replace:"Februar","Feb." | replace:"March","März" | replace:"April","Apr." | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"August","Aug." | replace:"September","Sept." | replace:"October","Okt." | replace:"November","Nov." | replace:"December","Dez." }}
+        </a>
+    </h3>
 
-<p class="event-site-location">Live at {{ event.location }}</p>
+    <p>Live at {{ event.location }}</p>
 
-<p class="event-site-time">Türöffnung: {{ event.start_date | date: "%R" }}</p>
+    <p class="opening">Türöffnung: {{ event.start_date | date: "%R" }}</p>
+</div>
 
 {% endfor %}
 
