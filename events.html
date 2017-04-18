@@ -12,7 +12,7 @@ background_image_caption: ''
 <div class="seperator"></div>
 
 {% assign events = site.events | where:'state','upcoming' %}
-{% assign sorted_events = (events | sort: 'start_date') | reverse %}
+{% assign sorted_events = (events | sort: 'start_date') %}
 {% if sorted_events == empty %}
 <h4>Keine bevorstehenden Events</h4>
 {% else %}
