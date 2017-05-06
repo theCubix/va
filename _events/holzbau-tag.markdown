@@ -1,7 +1,7 @@
 ---
 title: Holzbau-Tag
 date: 2017-03-08 18:00:00 Z
-state: upcoming
+state: former
 author: Voltage Arc
 location: Max Fischer AG
 address: Niederlenzerstrasse 17, 5600 Lenzburg
