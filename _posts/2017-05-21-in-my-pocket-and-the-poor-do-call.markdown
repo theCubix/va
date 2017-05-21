@@ -1,7 +1,7 @@
 ---
-title: "New Tracks: In My Pocket & The Poor Do Call"
+title: 'New Tracks: In My Pocket & The Poor Do Call'
 date: 2017-05-21 11:30:00 Z
-description: "In My Pocket & The Poor Do Call sind jetzt als Demo-Tape verfügbar"
+description: In My Pocket & The Poor Do Call sind jetzt als Demo-Tape verfügbar
 author: Voltage Arc
 background_image: "/uploads/background_mixer.jpg"
 image_caption: Aufnahmearbeiten von Put Up Your Head
