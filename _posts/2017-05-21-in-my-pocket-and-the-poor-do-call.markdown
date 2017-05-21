@@ -11,9 +11,9 @@ song: ''
 
 Spontan, improvisiert und chaotisch: so verliefen die Aufnahme unserer beiden Songs _«In My Pocket»_ und «The Poor Do Call». Nach geschlagen 3 Stunden hatten wir dann endlich die Finale Version.
 
-Auch wenn es lediglich Demo-Versionen sind, die noch Kilometerweit von professioneller Studioqualität entfernt sind, finden wir, das Resultat lässt sich hören und deswegen möchten wir auch die Tracks mit dir Teilen.
+Trotz der Demo-Qualität – die noch weit von Professioneller Studio Qualität entfernt ist – lässt sich das Resultat durchaus hören. So finden wir zumindest, weswegen wir die beiden Tracks auch mit dir teilen möchten.
 
-Solltest du Lust bekommen haben noch mehr unserer Songs zu hören, dann schaue auf der [Events-Seite](http://events.voltagearc.com) nach.
+Solltest du Lust auf mehr bekommen haben, schau auf unserer [Events-Seite](http://events.voltagearc.com) nach – dort findest du unsere nächsten Auftritte und wir freuen uns, dich auch mal an einem unserer Gigs zu sehen.
 
 Danke fürs reinhören und Keep on Rockin' 🤘🏻🤘🏻
 
