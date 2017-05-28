@@ -9,7 +9,7 @@ video: ''
 song: ''
 ---
 
-Spontan, improvisiert und chaotisch: so verliefen die Aufnahme unserer beiden Songs _«In My Pocket»_ und «The Poor Do Call». Nach geschlagen 3 Stunden hatten wir dann endlich die Finale Version.
+Spontan, improvisiert und chaotisch: so verliefen die Aufnahme unserer beiden Songs _«In My Pocket»_ und _«The Poor Do Call»_. Nach geschlagen 3 Stunden hatten wir dann endlich die Finale Version.
 
 Trotz der Demo-Qualität – die noch weit von Professioneller Studio Qualität entfernt ist – lässt sich das Resultat durchaus hören. So finden wir zumindest, weswegen wir die beiden Tracks auch mit dir teilen möchten.
 
@@ -31,3 +31,6 @@ Danke fürs reinhören und Keep on Rockin' 🤘🏻🤘🏻
 <audio controls>
   <source src="/uploads/The_Poor_Do_Call.mp3" type="audio/mpeg">
 </audio>
+
+### Beide Tracks herunterladen
+<a href="/uploads/Demos.zip" class="btn btn-default material-ease" download>Jetzt herunterladen</a>
