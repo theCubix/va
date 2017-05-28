@@ -140,7 +140,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
                 <li ><a href="/gallery/">Galerie</a></li>
                 <li ><a href="/blog/">Blog</a></li>
                 <li class="active"><a href="/engage/">Buchen</a></li>
-                
+                <li ><a href="/contact/">Kontakt</a></li>
             </ul>
         </div>
     </div>
