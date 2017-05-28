@@ -162,7 +162,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
             </a>
         </div>
         <div class="item">
-            <a href="#">
+            <a href="/contact/">
                 <i class="material-icons material-ease">info</i>
                 <span class="material-ease">Mehr Infos</span>
             </a>
