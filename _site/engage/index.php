@@ -57,7 +57,7 @@ function test_input($data) {
 }
 
 if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($description))) {
-    $to      = 'timon.forrer@gmail.com';
+    $to      = 'info@voltagearc.com';
     $subject = $firstName . " " . $lastName . " möchte Voltage Arc buchen!";
     $message = $firstName . " schrieb" . "\n" . $description;
     $headers = 'From: ' . $firstName . " " . $lastName . "\r\n" .
