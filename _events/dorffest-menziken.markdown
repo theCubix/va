@@ -7,11 +7,11 @@ location: Gemeindesaal
 address: Gemeindesaal Menziken, Schweiz
 start_date: 2017-06-10 21:00:00 Z
 link: https://www.facebook.com/events/1702665050037729
-background_image: "/uploads/voltage_arc_bandroom.jpeg"
+background_image: "/uploads/voltage_arc_bandroom.jpg"
 ---
 
 Yes! Wir treten am Dorfest in Menziken auf, unterstütz durch den Streetdancer Ruben Nuñez. Im Anschluss treten Weekend Warrior um ca. 22:00 Uhr auf.
 
-![recording_demos_in_may.jpg](/uploads/voltage_arc_bandroom.jpeg){: .img-responsive .material-shadow-1 .material-corner }
+![uploads/voltage_arc_bandroom.jpg](/uploads/voltage_arc_bandroom.jpg){: .img-responsive .material-shadow-1 .material-corner }
 
 > Bild: Vorfreude auf den Gig macht sich breit
