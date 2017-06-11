@@ -9,7 +9,7 @@ video: ''
 song: ''
 ---
 
-Der Auftritt am Dorffest Menziken diesen Samstag war eine echte Freude. Unser Set beinhaltete 11 Songs, plus T.N.T als Zugabe. Nachfolgend findest du ein paar Handy-Videos und Fotos, zwar in niedriger Qualität, einen Einblick erhält man aber dennoch.
+Der Auftritt am Dorffest Menziken diesen Samstag war eine echte Freude. Unser Set beinhaltete 11 Songs, plus T.N.T als Zugabe. Nachfolgend findest du ein paar Handy-Videos und Fotos – zwar sind diese in niedriger Qualität, einen Einblick erhält man aber dennoch.
 
 ## Fotos
 
@@ -28,7 +28,7 @@ Der Auftritt am Dorffest Menziken diesen Samstag war eine echte Freude. Unser Se
 
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <video class="embed-responsive-item" src="/uploads/videos/dorffest_menziken_timeticket_away.mp4" controls></video>
+        <video class="video--fullwidth" src="/uploads/videos/dorffest_menziken_timeticket_away.mp4" controls></video>
     </div>
 </div>
 
@@ -36,28 +36,28 @@ Der Auftritt am Dorffest Menziken diesen Samstag war eine echte Freude. Unser Se
 
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FVoltageArc%2Fvideos%2F1925213441028360%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+    <iframe class="video--fullwidth" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FVoltageArc%2Fvideos%2F1925213441028360%2F&show_text=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
     </div>
 </div>
 
 ### In My Pocket
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <video class="embed-responsive-item" src="/uploads/videos/dorffest_menziken_in_my_pocket.mp4" controls></video>
+        <video class="video--fullwidth" src="/uploads/videos/dorffest_menziken_in_my_pocket.mp4" controls></video>
     </div>
 </div>
 
 ### Nicest Day of Life
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <video class="embed-responsive-item" src="/uploads/videos/dorffest_menziken_nicest_day_of_life.mp4" controls></video>
+        <video class="video--fullwidth" src="/uploads/videos/dorffest_menziken_nicest_day_of_life.mp4" controls></video>
     </div>
 </div>
 
 ### The Poor Do Call
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <video class="embed-responsive-item" src="/uploads/videos/dorffest_menziken_the_poor_do_call.mp4" controls></video>
+        <video class="video--fullwidth" src="/uploads/videos/dorffest_menziken_the_poor_do_call.mp4" controls></video>
     </div>
 </div>
 
