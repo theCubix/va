@@ -35,8 +35,10 @@ Der Auftritt am Dorffest Menziken diesen Samstag war eine echte Freude. Unser Se
 ### Fck the system
 
 <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <iframe class="video--fullwidth" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FVoltageArc%2Fvideos%2F1925213441028360%2F&show_text=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+    <div style="padding:10px 15px" class="inline-video col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class=" embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FVoltageArc%2Fvideos%2F1925213441028360%2F&show_text=0" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 
