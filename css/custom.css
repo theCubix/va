@@ -1289,3 +1289,9 @@ html.swipebox-html.swipebox-touch {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+
+.video--fullwidth {
+    width: 100%;
+    height: auto;
+}
