@@ -6,3 +6,4 @@ thumbnail_path: thumbnail_dorffest_menziken_group.jpg
 image_path: dorffest_menziken_group.jpg
 caption: Voltage Arc beim Auftritt am Dorffest Menziken
 ---
+

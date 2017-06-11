@@ -6,3 +6,4 @@ thumbnail_path: thumbnail_dorffest_menziken_toni_timon.jpg
 image_path: dorffest_menziken_toni_timon.jpg
 caption: Toni und Timon beim Auftritt am Dorffest Menziken
 ---
+
