@@ -1,7 +1,7 @@
 ---
 title: Dorffest Menziken
 date: 2017-04-13 17:28:00 Z
-state: upcoming
+state: former
 author: Voltage Arc
 location: Gemeindesaal
 address: Gemeindesaal Menziken, Schweiz
