@@ -187,7 +187,9 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
             <div class="row">
                 <div class="material-shadow-1 material-section col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
                     <h1>Buchen</h1>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <p>Buche Voltage Arc für deinen Event – egal ob Geburtstagsparty, Hochzeit oder Festival. Mit unserem breiten Spektrum an Songs von weicheren Covers bis hin zu härtesten Eigenkreationen verleihen wir den unterschiedlichsten Veranstaltung beste Unterhaltung.</p>
+<p>Sobald wir deine Anfrage erhalten haben werden wir mit dir kontakt Aufnehmen und genaueres klären.</p>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         
