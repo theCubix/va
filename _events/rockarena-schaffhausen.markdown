@@ -1,7 +1,7 @@
 ---
 title: Rockarena Schaffhausen
 date: 2017-04-13 18:28:00 Z
-state: upcoming
+state: former
 author: Voltage Arc
 location: Rockarena
 address: Solenbergstrasse 35, 8207 Schaffhausen
