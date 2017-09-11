@@ -1,13 +1,13 @@
 ---
 title: Schaffhausner Bandcontest
 date: 2017-09-02 23:03:00 Z
-description: Dieses mal hat es geklappt! Wir sind beim Bandcontest der Rockarena Schaffhausen im Final!
+description: Dieses mal hat es geklappt. Wir sind beim Bandcontest der Rockarena Schaffhausen im Final!
 author: Voltage Arc
 background_image: "/uploads/030917_rockarena_group_image.jpg"
 image_caption: Auftritt in der Rockarena Schaffhausen
 ---
 
-wir sind alle überglücklich! Dieses Mal hat es geklappt und wir sind im Bandcontest im Final! Dieser findet am 18.11.17 in der Rokarena Schaffhausen statt. Weitere Infos findet Ihr [hier](http://www.voltagearc.com/events/finale-bandcontest-rockarena.html).
+Wir sind alle überglücklich! Dieses Mal hat es geklappt und wir sind im Bandcontest im Final! Dieser findet am 18.11.17 in der Rokarena Schaffhausen statt. Weitere Infos findet Ihr [hier](http://www.voltagearc.com/events/finale-bandcontest-rockarena.html).
 
 Nachfolgend wie gewohnt ein paar Eindrücke unseres Auftritts:
 
