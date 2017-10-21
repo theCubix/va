@@ -89,10 +89,14 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#424242">
         <title>Buchen – Voltage Arc Website</title>
-        <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="/css/bootstrap.css" rel="stylesheet">
-        <link href="/css/custom.css" rel="stylesheet">
+        <!-- Load CSS resources async on landing page -->
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/custom.css">
+        
+        
         <link rel="icon" href="/uploads/icon192x192.png">
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -233,6 +237,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/custom.js"></script>
+        
         <script type="text/javascript">
         ;( function( $ ) {
             
@@ -240,6 +245,9 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
             
         } )( jQuery );
         </script>
+        
+        
+        
         
         <div class="dark-background">
     <footer class="container">
