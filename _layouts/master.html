@@ -26,36 +26,10 @@
         <meta name="theme-color" content="#424242">
         <title>{{ page.title }} – Voltage Arc Website</title>
         <!-- Load CSS resources async on landing page -->
-        {% if page.url == "/" %}
-        <link href="/css/atf-home.css" rel="stylesheet">
-        <link rel="preload" 
-              href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300,700" 
-              as="style" 
-              onload="this.rel='stylesheet'">
-        <link rel="preload" 
-              href="https://fonts.googleapis.com/icon?family=Material+Icons" 
-              as="style" 
-              onload="this.rel='stylesheet'">
-        <link rel="preload" 
-              href="/css/bootstrap.css" 
-              as="style" 
-              onload="this.rel='stylesheet'">
-        <link rel="preload" 
-              href="/css/custom.css" 
-              as="style" 
-              onload="this.rel='stylesheet'">
-        <noscript>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300,700">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-            <link rel="stylesheet" href="/css/bootstrap.css">
-            <link rel="stylesheet" href="/css/custom.css">
-        </noscript>
-        {% else  %}
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300,700">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/custom.css">
-        {% endif %}
         
         <link rel="icon" href="/uploads/icon192x192.png">
         <!--[if lt IE 9]>
@@ -70,6 +44,12 @@
 
             ga('create', 'UA-86605317-2', 'auto');
             ga('send', 'pageview');
+        </script>
+        <script>
+            /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+            !function(a){"use strict";var b=function(b,c,d){function j(a){if(e.body)return a();setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+            /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+            !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
         </script>
     </head>
     <body>
@@ -98,16 +78,6 @@
         } )( jQuery );
         </script>
         {% endif %}
-        
-        {% if page.url == "/" %}
-        <script>
-            /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-            !function(a){"use strict";var b=function(b,c,d){function j(a){if(e.body)return a();setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
-            /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-            !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
-        </script>
-        {% endif %}
-        
         {% include footer.html %}
         
     </body>

@@ -126,6 +126,75 @@ blockquote {
 }
 
 
+/* --- Fullscreen Video --- */
+
+.landing-page {
+    position: relative;
+    min-height: 500px;
+    height: 600px;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    z-index: 3;
+}
+
+.btn-outline {
+    margin: 250px 0 25px 0;
+    margin: 30vh 0 25px 0;
+}
+
+.landing-page > .btn-outline > a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.landing-page > .btn-outline > a:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+
+video#bgvid {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+/* --- Hero Title --- */
+
+.landing-page > h1 {
+    margin: 0;
+    padding-top: 190px;
+    padding-top: 35vh;
+    font-size: 3.5em;
+    color: #fff;
+    font-size: 3.5em;
+}
+
+.btn-primary {
+    background-color: #222222;
+    border-color: #222222;
+}
+
+.btn-primary:hover {
+    background-color: #C62828;
+    border-color: #C62828;
+}
+
+
 /* --- Custom Navbar --- */
 
 nav li a {
