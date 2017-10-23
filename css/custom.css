@@ -75,10 +75,11 @@ blockquote {
     overflow: hidden;
     padding: 20px;
     background-color: #fff;
+    margin: 10px 0;
 }
 
-.material-simple-card > h1 {
-    margin: 0 0 10px 0;
+.material-simple-card__title {
+    margin: 0 0 0.3em 0
 }
 
 .material-simple-card > p {
