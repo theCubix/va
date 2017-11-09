@@ -199,7 +199,7 @@ if ((!empty($firstName)) && (!empty($lastName)) && (!empty($email)) && (!empty($
 <p>Sobald wir deine Anfrage erhalten haben werden wir mit dir kontakt Aufnehmen und genaueres klären.</p>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
     
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
         
         <div class="form-group">
             <label>Vorname</label>
