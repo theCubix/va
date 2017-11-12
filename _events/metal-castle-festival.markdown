@@ -1,7 +1,7 @@
 ---
 title: Metal Castle Festival
 date: 2017-07-25 11:56:00 Z
-state: upcoming
+state: former
 author: Voltage Arc
 location: Musigburg
 address: Bahnhofstrasse 50, 4663 Aarburg
