@@ -44,7 +44,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } else {
             $description = test_input($_POST["description"]);
         }
-
     }
 
 }
