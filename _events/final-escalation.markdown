@@ -1,7 +1,7 @@
 ---
 title: Final Escalation
 date: 2018-07-04 17:28:00 Z
-state: upcoming
+state: former
 author: Voltage Arc
 location: O’Hanlons Pub
 address: Pfistergasse 4, 5734 Reinach
